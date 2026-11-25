@@ -1,20 +1,13 @@
 {
  "content": [
   {
-   "id": "8afe231",
-   "elType": "container",
+   "id": "69100d6",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "row",
     "flex_align_items": "center",
     "min_height": {
      "unit": "px",
-     "size": 500,
+     "size": 600,
      "sizes": []
     },
     "min_height_tablet": {
@@ -44,7 +37,7 @@
      "isLinked": false
     },
     "background_background": "classic",
-    "background_position": "center right",
+    "background_position": "center center",
     "background_repeat": "no-repeat",
     "background_size": "cover",
     "background_overlay_background": "gradient",
@@ -60,7 +53,6 @@
      "size": 78,
      "sizes": []
     },
-    "background_overlay_gradient_type": "linear",
     "background_overlay_gradient_angle": {
      "unit": "deg",
      "size": 90,
@@ -74,12 +66,24 @@
     "_element_id": "hero",
     "__globals__": {
      "background_color": "globals/colors?id=fsideep"
-    }
+    },
+    "background_image": {
+     "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-pavel-danilyuk-8422164.jpg",
+     "id": 77569,
+     "size": "",
+     "alt": "",
+     "source": "library"
+    },
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 0.9,
+     "sizes": []
+    },
+    "_title": "BANNER"
    },
    "elements": [
     {
-     "id": "b459071",
-     "elType": "container",
+     "id": "5282c6f7",
      "settings": {
       "content_width": "full",
       "flex_direction": "column",
@@ -116,22 +120,23 @@
      },
      "elements": [
       {
-       "id": "73f80e5",
-       "elType": "widget",
+       "id": "46316247",
        "settings": {
         "title": "Georgia's Science Instruction Partner",
         "header_size": "p",
         "__globals__": {
          "title_color": "globals/colors?id=secondary",
          "typography_typography": "globals/typography?id=fsieyeb"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "heading"
+       "isInner": false,
+       "widgetType": "heading",
+       "elType": "widget"
       },
       {
-       "id": "06f102f",
-       "elType": "container",
+       "id": "7ad3585",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -153,52 +158,57 @@
        },
        "elements": [
         {
-         "id": "4a9f296",
-         "elType": "widget",
+         "id": "4d7caa96",
          "settings": {
           "title": "Transform Science Teaching.",
           "header_size": "h1",
           "__globals__": {
            "title_color": "globals/colors?id=fsiwhit",
            "typography_typography": "globals/typography?id=fsidisp"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "heading"
+         "isInner": false,
+         "widgetType": "heading",
+         "elType": "widget"
         },
         {
-         "id": "e1010f1",
-         "elType": "widget",
+         "id": "e1cb605",
          "settings": {
           "title": "Accelerate Student Achievement.",
-          "header_size": "h2",
           "__globals__": {
            "title_color": "globals/colors?id=secondary",
            "typography_typography": "globals/typography?id=fsidisp"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "heading"
+         "isInner": false,
+         "widgetType": "heading",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "c1af446",
-       "elType": "widget",
+       "id": "325bf31",
        "settings": {
         "editor": "<p>Georgia-aligned interactive courses, hands-on learning systems, Milestones preparation, and teacher coaching—all connected through <strong>The FSI Way</strong>.</p>",
         "__globals__": {
          "text_color": "globals/colors?id=fsiwhit",
          "typography_typography": "globals/typography?id=fsibdlg"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "text-editor"
+       "isInner": false,
+       "widgetType": "text-editor",
+       "elType": "widget"
       },
       {
-       "id": "fb8adf9",
-       "elType": "container",
+       "id": "570894ff",
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
@@ -221,8 +231,7 @@
        },
        "elements": [
         {
-         "id": "ca8fbe3",
-         "elType": "widget",
+         "id": "170f67a3",
          "settings": {
           "text": "Request District Demo",
           "link": {
@@ -255,12 +264,10 @@
            "isLinked": true
           },
           "selected_icon": {
-           "value": "far fa-calendar-alt",
+           "value": "far fa-calendar",
            "library": "fa-regular"
           },
           "_css_classes": "fsi-btn-arrow",
-          "background_background": "classic",
-          "button_background_hover_background": "classic",
           "__globals__": {
            "typography_typography": "globals/typography?id=accent",
            "button_text_color": "globals/colors?id=fsihead",
@@ -270,11 +277,12 @@
           }
          },
          "elements": [],
-         "widgetType": "button"
+         "isInner": false,
+         "widgetType": "button",
+         "elType": "widget"
         },
         {
-         "id": "ff72c46",
-         "elType": "widget",
+         "id": "65b4b099",
          "settings": {
           "text": "Watch The FSI Way in Action",
           "link": {
@@ -307,12 +315,10 @@
            "isLinked": true
           },
           "selected_icon": {
-           "value": "far fa-play-circle",
-           "library": "fa-regular"
+           "value": "fas fa-play",
+           "library": "fa-solid"
           },
-          "background_background": "classic",
           "background_color": "rgba(255,255,255,0)",
-          "button_background_hover_background": "classic",
           "border_border": "solid",
           "border_width": {
            "unit": "px",
@@ -331,27 +337,25 @@
           }
          },
          "elements": [],
-         "widgetType": "button"
+         "isInner": false,
+         "widgetType": "button",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "1293924",
-   "elType": "container",
+   "id": "17110cdf",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "row",
     "flex_wrap": "wrap",
     "flex_wrap_mobile": "wrap",
@@ -408,12 +412,12 @@
     "__globals__": {
      "background_color": "globals/colors?id=fsiwhit",
      "border_color": "globals/colors?id=fsibord"
-    }
+    },
+    "_title": "INFO CARDS"
    },
    "elements": [
     {
-     "id": "e81696a",
-     "elType": "widget",
+     "id": "39d3b03d",
      "settings": {
       "selected_icon": {
        "value": "far fa-map",
@@ -423,7 +427,6 @@
       "description_text": "",
       "position": "left",
       "content_vertical_alignment": "middle",
-      "title_size": "h3",
       "text_align": "left",
       "icon_size": {
        "unit": "px",
@@ -483,11 +486,12 @@
       }
      },
      "elements": [],
-     "widgetType": "icon-box"
+     "isInner": false,
+     "widgetType": "icon-box",
+     "elType": "widget"
     },
     {
-     "id": "f9da0bf",
-     "elType": "widget",
+     "id": "4a3ef6c9",
      "settings": {
       "selected_icon": {
        "value": "fas fa-laptop",
@@ -497,7 +501,6 @@
       "description_text": "",
       "position": "left",
       "content_vertical_alignment": "middle",
-      "title_size": "h3",
       "text_align": "left",
       "icon_size": {
        "unit": "px",
@@ -557,11 +560,12 @@
       }
      },
      "elements": [],
-     "widgetType": "icon-box"
+     "isInner": false,
+     "widgetType": "icon-box",
+     "elType": "widget"
     },
     {
-     "id": "5a3c1fb",
-     "elType": "widget",
+     "id": "6b42dae3",
      "settings": {
       "selected_icon": {
        "value": "fas fa-user-friends",
@@ -571,7 +575,6 @@
       "description_text": "",
       "position": "left",
       "content_vertical_alignment": "middle",
-      "title_size": "h3",
       "text_align": "left",
       "icon_size": {
        "unit": "px",
@@ -631,11 +634,12 @@
       }
      },
      "elements": [],
-     "widgetType": "icon-box"
+     "isInner": false,
+     "widgetType": "icon-box",
+     "elType": "widget"
     },
     {
-     "id": "96fc5ce",
-     "elType": "widget",
+     "id": "5ba84b90",
      "settings": {
       "selected_icon": {
        "value": "far fa-chart-bar",
@@ -645,7 +649,6 @@
       "description_text": "",
       "position": "left",
       "content_vertical_alignment": "middle",
-      "title_size": "h3",
       "text_align": "left",
       "icon_size": {
        "unit": "px",
@@ -705,11 +708,12 @@
       }
      },
      "elements": [],
-     "widgetType": "icon-box"
+     "isInner": false,
+     "widgetType": "icon-box",
+     "elType": "widget"
     },
     {
-     "id": "402a2e8",
-     "elType": "widget",
+     "id": "5aeaefdd",
      "settings": {
       "selected_icon": {
        "value": "fas fa-layer-group",
@@ -719,7 +723,6 @@
       "description_text": "",
       "position": "left",
       "content_vertical_alignment": "middle",
-      "title_size": "h3",
       "text_align": "left",
       "icon_size": {
        "unit": "px",
@@ -736,7 +739,6 @@
        "size": 0,
        "sizes": []
       },
-      "_border_border": "",
       "_border_width": {
        "unit": "px",
        "top": "0",
@@ -779,21 +781,17 @@
       }
      },
      "elements": [],
-     "widgetType": "icon-box"
+     "isInner": false,
+     "widgetType": "icon-box",
+     "elType": "widget"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "811008b",
-   "elType": "container",
+   "id": "4e5bb562",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "column",
     "flex_gap": {
      "column": "32",
@@ -821,12 +819,12 @@
     "background_background": "classic",
     "__globals__": {
      "background_color": "globals/colors?id=fsiwhit"
-    }
+    },
+    "_title": "CHOOSE PATH"
    },
    "elements": [
     {
-     "id": "23cc390",
-     "elType": "container",
+     "id": "6c7478ec",
      "settings": {
       "content_width": "full",
       "flex_direction": "row",
@@ -850,8 +848,7 @@
      },
      "elements": [
       {
-       "id": "875b0b2",
-       "elType": "container",
+       "id": "3fa94bb8",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -888,516 +885,552 @@
        },
        "elements": [
         {
-         "id": "135d63c",
-         "elType": "widget",
+         "id": "3f08dea3",
          "settings": {
           "title": "Choose Your Path with FSI",
-          "header_size": "h2",
-          "_css_classes": "fsi-swoosh",
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
            "typography_typography": "globals/typography?id=primary"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": [],
+          "_css_classes": "fsi-swoosh"
          },
          "elements": [],
-         "widgetType": "heading"
+         "isInner": false,
+         "widgetType": "heading",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "8c7d743",
-       "elType": "container",
+       "id": "1c6ed0cb",
        "settings": {
         "content_width": "full",
-        "flex_direction": "row",
-        "flex_align_items": "center",
-        "flex_gap": {
-         "column": "16",
-         "row": "16",
-         "isLinked": true,
-         "unit": "px",
-         "size": 16
-        },
-        "html_tag": "a",
-        "link": {
-         "url": "#district",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_css_classes": "fsi-card",
-        "background_background": "classic",
-        "border_radius": {
-         "unit": "px",
-         "top": "10",
-         "right": "10",
-         "bottom": "10",
-         "left": "10",
-         "isLinked": true
-        },
-        "padding": {
-         "unit": "px",
-         "top": "20",
-         "right": "18",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "%",
-         "size": 26,
-         "sizes": []
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "__globals__": {
-         "background_color": "globals/colors?id=fsiltbl"
-        }
+        "flex_direction": "row"
        },
        "elements": [
         {
-         "id": "410915b",
-         "elType": "widget",
-         "settings": {
-          "selected_icon": {
-           "value": "fas fa-city",
-           "library": "fa-solid"
-          },
-          "view": "default",
-          "icon_size": {
-           "unit": "px",
-           "size": 40,
-           "sizes": []
-          },
-          "_flex_size": "none",
-          "__globals__": {
-           "primary_color": "globals/colors?id=primary"
-          }
-         },
-         "elements": [],
-         "widgetType": "icon"
-        },
-        {
-         "id": "29ea3a7",
-         "elType": "container",
+         "id": "26df208",
          "settings": {
           "content_width": "full",
-          "flex_direction": "column",
+          "flex_direction": "row",
+          "flex_align_items": "flex-start",
           "flex_gap": {
-           "column": "4",
-           "row": "4",
+           "column": "16",
+           "row": "16",
            "isLinked": true,
            "unit": "px",
-           "size": 4
+           "size": 16
+          },
+          "html_tag": "a",
+          "link": {
+           "url": "#district",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "fsi-card",
+          "background_background": "classic",
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
+           "isLinked": true
           },
           "padding": {
            "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": true
+           "top": "20",
+           "right": "18",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": false
           },
-          "_flex_size": "grow"
+          "width": {
+           "unit": "%",
+           "size": 33,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "__globals__": {
+           "background_color": "globals/colors?id=fsiltbl"
+          }
          },
          "elements": [
           {
-           "id": "d429fc5",
-           "elType": "widget",
+           "id": "298bca89",
            "settings": {
-            "title": "District Leaders",
-            "header_size": "h3",
+            "selected_icon": {
+             "value": "fas fa-city",
+             "library": "fa-solid"
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 40,
+             "sizes": []
+            },
+            "_flex_size": "none",
             "__globals__": {
-             "title_color": "globals/colors?id=fsihead",
-             "typography_typography": "globals/typography?id=fsih3cd"
+             "primary_color": "globals/colors?id=primary"
             }
            },
            "elements": [],
-           "widgetType": "heading"
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
           },
           {
-           "id": "a4ea393",
-           "elType": "widget",
+           "id": "200c4ff7",
            "settings": {
-            "editor": "<p>Explore a districtwide solution to improve science achievement.</p>",
-            "__globals__": {
-             "text_color": "globals/colors?id=text",
-             "typography_typography": "globals/typography?id=fsibdsm"
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "column": "4",
+             "row": "4",
+             "isLinked": true,
+             "unit": "px",
+             "size": 4
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
             }
            },
+           "elements": [
+            {
+             "id": "72bff8ba",
+             "settings": {
+              "title": "District Leaders",
+              "header_size": "h3",
+              "__globals__": {
+               "title_color": "globals/colors?id=fsihead",
+               "typography_typography": "globals/typography?id=fsih3cd"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
+             },
+             "elements": [],
+             "isInner": false,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "616441ca",
+             "settings": {
+              "editor": "<p>Explore a districtwide solution to improve science achievement.</p>",
+              "__globals__": {
+               "text_color": "globals/colors?id=text",
+               "typography_typography": "globals/typography?id=fsibdsm"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
+             },
+             "elements": [],
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "8923aca",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-chevron-right",
+             "library": "fa-solid"
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "__globals__": {
+             "primary_color": "globals/colors?id=fsihead"
+            },
+            "size": {
+             "unit": "px",
+             "size": 18,
+             "sizes": []
+            },
+            "_flex_align_self": "center"
+           },
            "elements": [],
-           "widgetType": "text-editor"
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         },
         {
-         "id": "7331dab",
-         "elType": "widget",
-         "settings": {
-          "selected_icon": {
-           "value": "fas fa-chevron-right",
-           "library": "fa-solid"
-          },
-          "view": "default",
-          "icon_size": {
-           "unit": "px",
-           "size": 14,
-           "sizes": []
-          },
-          "__globals__": {
-           "primary_color": "globals/colors?id=fsihead"
-          }
-         },
-         "elements": [],
-         "widgetType": "icon"
-        }
-       ],
-       "isInner": true
-      },
-      {
-       "id": "96f119b",
-       "elType": "container",
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "row",
-        "flex_align_items": "center",
-        "flex_gap": {
-         "column": "16",
-         "row": "16",
-         "isLinked": true,
-         "unit": "px",
-         "size": 16
-        },
-        "html_tag": "a",
-        "link": {
-         "url": "#schools",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_css_classes": "fsi-card",
-        "background_background": "classic",
-        "border_radius": {
-         "unit": "px",
-         "top": "10",
-         "right": "10",
-         "bottom": "10",
-         "left": "10",
-         "isLinked": true
-        },
-        "padding": {
-         "unit": "px",
-         "top": "20",
-         "right": "18",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "%",
-         "size": 26,
-         "sizes": []
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "__globals__": {
-         "background_color": "globals/colors?id=fsiltgd"
-        }
-       },
-       "elements": [
-        {
-         "id": "bdfaef4",
-         "elType": "widget",
-         "settings": {
-          "selected_icon": {
-           "value": "fas fa-school",
-           "library": "fa-solid"
-          },
-          "view": "default",
-          "icon_size": {
-           "unit": "px",
-           "size": 40,
-           "sizes": []
-          },
-          "_flex_size": "none",
-          "__globals__": {
-           "primary_color": "globals/colors?id=primary"
-          }
-         },
-         "elements": [],
-         "widgetType": "icon"
-        },
-        {
-         "id": "ca96fd7",
-         "elType": "container",
+         "id": "79b6c376",
          "settings": {
           "content_width": "full",
-          "flex_direction": "column",
+          "flex_direction": "row",
+          "flex_align_items": "flex-start",
           "flex_gap": {
-           "column": "4",
-           "row": "4",
+           "column": "16",
+           "row": "16",
            "isLinked": true,
            "unit": "px",
-           "size": 4
+           "size": 16
+          },
+          "html_tag": "a",
+          "link": {
+           "url": "#schools",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "fsi-card",
+          "background_background": "classic",
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
+           "isLinked": true
           },
           "padding": {
            "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": true
+           "top": "20",
+           "right": "18",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": false
           },
-          "_flex_size": "grow"
+          "width": {
+           "unit": "%",
+           "size": 33,
+           "sizes": []
+          },
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
+          },
+          "__globals__": {
+           "background_color": "globals/colors?id=fsiltgd"
+          }
          },
          "elements": [
           {
-           "id": "52a5d42",
-           "elType": "widget",
+           "id": "52580f3c",
            "settings": {
-            "title": "School Administrators",
-            "header_size": "h3",
+            "selected_icon": {
+             "value": "fas fa-school",
+             "library": "fa-solid"
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 40,
+             "sizes": []
+            },
+            "_flex_size": "none",
             "__globals__": {
-             "title_color": "globals/colors?id=fsihead",
-             "typography_typography": "globals/typography?id=fsih3cd"
+             "primary_color": "globals/colors?id=primary"
             }
            },
            "elements": [],
-           "widgetType": "heading"
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
           },
           {
-           "id": "3a569ee",
-           "elType": "widget",
+           "id": "3b1d629a",
            "settings": {
-            "editor": "<p>Plan implementation and support for your school.</p>",
-            "__globals__": {
-             "text_color": "globals/colors?id=text",
-             "typography_typography": "globals/typography?id=fsibdsm"
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "column": "4",
+             "row": "4",
+             "isLinked": true,
+             "unit": "px",
+             "size": 4
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
             }
            },
+           "elements": [
+            {
+             "id": "70b527eb",
+             "settings": {
+              "title": "School Administrators",
+              "header_size": "h3",
+              "__globals__": {
+               "title_color": "globals/colors?id=fsihead",
+               "typography_typography": "globals/typography?id=fsih3cd"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
+             },
+             "elements": [],
+             "isInner": false,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "49943719",
+             "settings": {
+              "editor": "<p>Plan implementation and support for your school.</p>",
+              "__globals__": {
+               "text_color": "globals/colors?id=text",
+               "typography_typography": "globals/typography?id=fsibdsm"
+              },
+              "eael_vto_writing_gradient_color_repeater": [],
+              "_flex_size": "none"
+             },
+             "elements": [],
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "5d16c345",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-chevron-right",
+             "library": "fa-solid"
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "__globals__": {
+             "primary_color": "globals/colors?id=fsihead"
+            },
+            "size": {
+             "unit": "px",
+             "size": 18,
+             "sizes": []
+            },
+            "_flex_align_self": "center"
+           },
            "elements": [],
-           "widgetType": "text-editor"
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         },
         {
-         "id": "4260ce8",
-         "elType": "widget",
-         "settings": {
-          "selected_icon": {
-           "value": "fas fa-chevron-right",
-           "library": "fa-solid"
-          },
-          "view": "default",
-          "icon_size": {
-           "unit": "px",
-           "size": 14,
-           "sizes": []
-          },
-          "__globals__": {
-           "primary_color": "globals/colors?id=fsihead"
-          }
-         },
-         "elements": [],
-         "widgetType": "icon"
-        }
-       ],
-       "isInner": true
-      },
-      {
-       "id": "9354d0e",
-       "elType": "container",
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "row",
-        "flex_align_items": "center",
-        "flex_gap": {
-         "column": "16",
-         "row": "16",
-         "isLinked": true,
-         "unit": "px",
-         "size": 16
-        },
-        "html_tag": "a",
-        "link": {
-         "url": "#teachers",
-         "is_external": "",
-         "nofollow": "",
-         "custom_attributes": ""
-        },
-        "_css_classes": "fsi-card",
-        "background_background": "classic",
-        "border_radius": {
-         "unit": "px",
-         "top": "10",
-         "right": "10",
-         "bottom": "10",
-         "left": "10",
-         "isLinked": true
-        },
-        "padding": {
-         "unit": "px",
-         "top": "20",
-         "right": "18",
-         "bottom": "20",
-         "left": "20",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "%",
-         "size": 26,
-         "sizes": []
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100,
-         "sizes": []
-        },
-        "__globals__": {
-         "background_color": "globals/colors?id=fsiltpu"
-        }
-       },
-       "elements": [
-        {
-         "id": "ac59157",
-         "elType": "widget",
-         "settings": {
-          "selected_icon": {
-           "value": "fas fa-graduation-cap",
-           "library": "fa-solid"
-          },
-          "view": "default",
-          "icon_size": {
-           "unit": "px",
-           "size": 40,
-           "sizes": []
-          },
-          "_flex_size": "none",
-          "__globals__": {
-           "primary_color": "globals/colors?id=primary"
-          }
-         },
-         "elements": [],
-         "widgetType": "icon"
-        },
-        {
-         "id": "5d23d1f",
-         "elType": "container",
+         "id": "6f935f64",
          "settings": {
           "content_width": "full",
-          "flex_direction": "column",
+          "flex_direction": "row",
+          "flex_align_items": "flex-start",
           "flex_gap": {
-           "column": "4",
-           "row": "4",
+           "column": "16",
+           "row": "16",
            "isLinked": true,
            "unit": "px",
-           "size": 4
+           "size": 16
+          },
+          "html_tag": "a",
+          "link": {
+           "url": "#teachers",
+           "is_external": "",
+           "nofollow": "",
+           "custom_attributes": ""
+          },
+          "_css_classes": "fsi-card",
+          "background_background": "classic",
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
+           "bottom": "10",
+           "left": "10",
+           "isLinked": true
           },
           "padding": {
            "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": true
+           "top": "20",
+           "right": "18",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": false
           },
-          "_flex_size": "grow"
-         },
-         "elements": [
-          {
-           "id": "43bb389",
-           "elType": "widget",
-           "settings": {
-            "title": "Teachers",
-            "header_size": "h3",
-            "__globals__": {
-             "title_color": "globals/colors?id=fsihead",
-             "typography_typography": "globals/typography?id=fsih3cd"
-            }
-           },
-           "elements": [],
-           "widgetType": "heading"
+          "width": {
+           "unit": "%",
+           "size": 33,
+           "sizes": []
           },
-          {
-           "id": "44e767f",
-           "elType": "widget",
-           "settings": {
-            "editor": "<p>Experience an FSI science lesson and see it in action.</p>",
-            "__globals__": {
-             "text_color": "globals/colors?id=text",
-             "typography_typography": "globals/typography?id=fsibdsm"
-            }
-           },
-           "elements": [],
-           "widgetType": "text-editor"
-          }
-         ],
-         "isInner": true
-        },
-        {
-         "id": "ce1f394",
-         "elType": "widget",
-         "settings": {
-          "selected_icon": {
-           "value": "fas fa-chevron-right",
-           "library": "fa-solid"
+          "width_tablet": {
+           "unit": "%",
+           "size": 100,
+           "sizes": []
           },
-          "view": "default",
-          "icon_size": {
-           "unit": "px",
-           "size": 14,
+          "width_mobile": {
+           "unit": "%",
+           "size": 100,
            "sizes": []
           },
           "__globals__": {
-           "primary_color": "globals/colors?id=fsihead"
+           "background_color": "globals/colors?id=fsiltpu"
           }
          },
-         "elements": [],
-         "widgetType": "icon"
+         "elements": [
+          {
+           "id": "6bce9995",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-graduation-cap",
+             "library": "fa-solid"
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 40,
+             "sizes": []
+            },
+            "_flex_size": "none",
+            "__globals__": {
+             "primary_color": "globals/colors?id=primary"
+            }
+           },
+           "elements": [],
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
+          },
+          {
+           "id": "79e6b2a6",
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+             "column": "4",
+             "row": "4",
+             "isLinked": true,
+             "unit": "px",
+             "size": 4
+            },
+            "padding": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": true
+            }
+           },
+           "elements": [
+            {
+             "id": "70d6ab99",
+             "settings": {
+              "title": "Teachers",
+              "header_size": "h3",
+              "__globals__": {
+               "title_color": "globals/colors?id=fsihead",
+               "typography_typography": "globals/typography?id=fsih3cd"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
+             },
+             "elements": [],
+             "isInner": false,
+             "widgetType": "heading",
+             "elType": "widget"
+            },
+            {
+             "id": "6c27fe7",
+             "settings": {
+              "editor": "<p>Experience an FSI science lesson and see it in action.</p>",
+              "__globals__": {
+               "text_color": "globals/colors?id=text",
+               "typography_typography": "globals/typography?id=fsibdsm"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
+             },
+             "elements": [],
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
+            }
+           ],
+           "isInner": true,
+           "elType": "container"
+          },
+          {
+           "id": "6d5c4913",
+           "settings": {
+            "selected_icon": {
+             "value": "fas fa-chevron-right",
+             "library": "fa-solid"
+            },
+            "icon_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "__globals__": {
+             "primary_color": "globals/colors?id=fsihead"
+            },
+            "size": {
+             "unit": "px",
+             "size": 18,
+             "sizes": []
+            },
+            "_flex_align_self": "center"
+           },
+           "elements": [],
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
+          }
+         ],
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "2aa60f3",
-   "elType": "container",
+   "id": "181f0a20",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "column",
     "flex_gap": {
      "column": "32",
@@ -1429,8 +1462,7 @@
    },
    "elements": [
     {
-     "id": "4d1dd7d",
-     "elType": "container",
+     "id": "4fc46822",
      "settings": {
       "content_width": "full",
       "flex_direction": "column",
@@ -1453,8 +1485,7 @@
      },
      "elements": [
       {
-       "id": "55d0c57",
-       "elType": "widget",
+       "id": "4ea1fc68",
        "settings": {
         "title": "The Complete FSI Solution",
         "header_size": "p",
@@ -1462,33 +1493,37 @@
         "__globals__": {
          "title_color": "globals/colors?id=fsihead",
          "typography_typography": "globals/typography?id=fsieyeb"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "heading"
+       "isInner": false,
+       "widgetType": "heading",
+       "elType": "widget"
       },
       {
-       "id": "07c1837",
-       "elType": "widget",
+       "id": "17783397",
        "settings": {
         "title": "A Connected System for Science Success",
-        "header_size": "h2",
         "align": "center",
-        "_css_classes": "fsi-swoosh fsi-swoosh--center",
         "__globals__": {
          "title_color": "globals/colors?id=fsihead",
          "typography_typography": "globals/typography?id=primary"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": [],
+        "_css_classes": "fsi-swoosh fsi-swoosh--center"
        },
        "elements": [],
-       "widgetType": "heading"
+       "isInner": false,
+       "widgetType": "heading",
+       "elType": "widget"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     },
     {
-     "id": "6a9bb2c",
-     "elType": "container",
+     "id": "5016b966",
      "settings": {
       "content_width": "full",
       "flex_direction": "row",
@@ -1511,8 +1546,7 @@
      },
      "elements": [
       {
-       "id": "77832f1",
-       "elType": "container",
+       "id": "20cae8fc",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -1588,8 +1622,7 @@
        },
        "elements": [
         {
-         "id": "0b4152c",
-         "elType": "widget",
+         "id": "3314ba6f",
          "settings": {
           "image_size": "full",
           "width": {
@@ -1610,23 +1643,31 @@
            "size": 180,
            "sizes": []
           },
-          "object-fit": "cover"
+          "object-fit": "cover",
+          "image": {
+           "id": 77570,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-shkrabaanthony-6266990.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          }
          },
          "elements": [],
-         "widgetType": "image"
+         "isInner": false,
+         "widgetType": "image",
+         "elType": "widget"
         },
         {
-         "id": "c78165d",
-         "elType": "container",
+         "id": "7f68d4ec",
          "settings": {
           "content_width": "full",
           "flex_direction": "column",
           "flex_gap": {
-           "column": "8",
-           "row": "8",
+           "column": "4",
+           "row": "4",
            "isLinked": true,
            "unit": "px",
-           "size": 8
+           "size": 4
           },
           "padding": {
            "unit": "px",
@@ -1639,8 +1680,7 @@
          },
          "elements": [
           {
-           "id": "06f3179",
-           "elType": "container",
+           "id": "3b560ad8",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -1663,14 +1703,12 @@
            },
            "elements": [
             {
-             "id": "26e144c",
-             "elType": "widget",
+             "id": "78ee9617",
              "settings": {
               "selected_icon": {
                "value": "fas fa-laptop",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 22,
@@ -1681,28 +1719,32 @@
               }
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             },
             {
-             "id": "ec433ae",
-             "elType": "widget",
+             "id": "59315a4",
              "settings": {
               "title": "FSI Courses",
               "header_size": "h3",
               "__globals__": {
                "title_color": "globals/colors?id=fsihead",
                "typography_typography": "globals/typography?id=fsih3cd"
-              }
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "heading"
+             "isInner": false,
+             "widgetType": "heading",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           },
           {
-           "id": "8458320",
-           "elType": "container",
+           "id": "27c0041c",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -1725,52 +1767,61 @@
            },
            "elements": [
             {
-             "id": "f8223c0",
-             "elType": "widget",
+             "id": "359be202",
              "settings": {
               "editor": "<p>Engaging digital lessons, interactive activities, assessments, and progress dashboards.</p>",
-              "_flex_size": "grow",
               "__globals__": {
-               "text_color": "globals/colors?id=text",
-               "typography_typography": "globals/typography?id=fsibdsm"
-              }
+               "text_color": "globals/colors?id=d67b0ce",
+               "typography_typography": "globals/typography?id=text"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "text-editor"
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
             },
             {
-             "id": "48ba29b",
-             "elType": "widget",
+             "id": "2b7d52b2",
              "settings": {
               "selected_icon": {
                "value": "fas fa-chevron-right",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 13,
                "sizes": []
               },
               "__globals__": {
-               "primary_color": "globals/colors?id=fsihead"
-              }
+               "primary_color": "globals/colors?id=primary"
+              },
+              "size": {
+               "unit": "px",
+               "size": 16,
+               "sizes": []
+              },
+              "_flex_size": "grow"
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "6d7af23",
-       "elType": "container",
+       "id": "6772fb2f",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -1846,8 +1897,7 @@
        },
        "elements": [
         {
-         "id": "c867119",
-         "elType": "widget",
+         "id": "5c459d0c",
          "settings": {
           "image_size": "full",
           "width": {
@@ -1868,23 +1918,31 @@
            "size": 180,
            "sizes": []
           },
-          "object-fit": "cover"
+          "object-fit": "cover",
+          "image": {
+           "id": 77571,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-walls-io-440716388-15543114.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          }
          },
          "elements": [],
-         "widgetType": "image"
+         "isInner": false,
+         "widgetType": "image",
+         "elType": "widget"
         },
         {
-         "id": "a7ffb08",
-         "elType": "container",
+         "id": "7e7e904a",
          "settings": {
           "content_width": "full",
           "flex_direction": "column",
           "flex_gap": {
-           "column": "8",
-           "row": "8",
+           "column": "4",
+           "row": "4",
            "isLinked": true,
            "unit": "px",
-           "size": 8
+           "size": 4
           },
           "padding": {
            "unit": "px",
@@ -1897,8 +1955,7 @@
          },
          "elements": [
           {
-           "id": "673940a",
-           "elType": "container",
+           "id": "25b0e437",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -1921,14 +1978,12 @@
            },
            "elements": [
             {
-             "id": "66de2e9",
-             "elType": "widget",
+             "id": "39b08bcd",
              "settings": {
               "selected_icon": {
                "value": "fas fa-chalkboard-teacher",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 22,
@@ -1939,28 +1994,32 @@
               }
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             },
             {
-             "id": "7aa1caa",
-             "elType": "widget",
+             "id": "3eaebbb6",
              "settings": {
               "title": "The FSI Way Boards",
               "header_size": "h3",
               "__globals__": {
                "title_color": "globals/colors?id=fsihead",
                "typography_typography": "globals/typography?id=fsih3cd"
-              }
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "heading"
+             "isInner": false,
+             "widgetType": "heading",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           },
           {
-           "id": "83f11b2",
-           "elType": "container",
+           "id": "37427e36",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -1983,52 +2042,61 @@
            },
            "elements": [
             {
-             "id": "bcc3323",
-             "elType": "widget",
+             "id": "41bf8caa",
              "settings": {
               "editor": "<p>Hands-on, reusable learning systems for labeling, sorting, CER, and scientific modeling.</p>",
-              "_flex_size": "grow",
               "__globals__": {
-               "text_color": "globals/colors?id=text",
-               "typography_typography": "globals/typography?id=fsibdsm"
-              }
+               "text_color": "globals/colors?id=d67b0ce",
+               "typography_typography": "globals/typography?id=text"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "text-editor"
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
             },
             {
-             "id": "9bbc068",
-             "elType": "widget",
+             "id": "425d29d9",
              "settings": {
               "selected_icon": {
                "value": "fas fa-chevron-right",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 13,
                "sizes": []
               },
               "__globals__": {
-               "primary_color": "globals/colors?id=fsihead"
-              }
+               "primary_color": "globals/colors?id=primary"
+              },
+              "size": {
+               "unit": "px",
+               "size": 16,
+               "sizes": []
+              },
+              "_flex_size": "grow"
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "3313f3f",
-       "elType": "container",
+       "id": "7f0f2939",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -2104,8 +2172,7 @@
        },
        "elements": [
         {
-         "id": "35aa850",
-         "elType": "widget",
+         "id": "51de8e40",
          "settings": {
           "image_size": "full",
           "width": {
@@ -2126,23 +2193,31 @@
            "size": 180,
            "sizes": []
           },
-          "object-fit": "cover"
+          "object-fit": "cover",
+          "image": {
+           "id": 77572,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-shvets-production-7176302.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          }
          },
          "elements": [],
-         "widgetType": "image"
+         "isInner": false,
+         "widgetType": "image",
+         "elType": "widget"
         },
         {
-         "id": "1fa0577",
-         "elType": "container",
+         "id": "5ef41876",
          "settings": {
           "content_width": "full",
           "flex_direction": "column",
           "flex_gap": {
-           "column": "8",
-           "row": "8",
+           "column": "4",
+           "row": "4",
            "isLinked": true,
            "unit": "px",
-           "size": 8
+           "size": 4
           },
           "padding": {
            "unit": "px",
@@ -2155,8 +2230,7 @@
          },
          "elements": [
           {
-           "id": "312d1e5",
-           "elType": "container",
+           "id": "62eae2fc",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -2179,14 +2253,12 @@
            },
            "elements": [
             {
-             "id": "510adc2",
-             "elType": "widget",
+             "id": "6677f328",
              "settings": {
               "selected_icon": {
                "value": "fas fa-school",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 22,
@@ -2194,31 +2266,42 @@
               },
               "__globals__": {
                "primary_color": "globals/colors?id=primary"
-              }
+              },
+              "align": "start",
+              "size": {
+               "unit": "px",
+               "size": 40,
+               "sizes": []
+              },
+              "_flex_size": "grow"
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             },
             {
-             "id": "dd71029",
-             "elType": "widget",
+             "id": "21418973",
              "settings": {
               "title": "FSI Professional Learning",
               "header_size": "h3",
               "__globals__": {
                "title_color": "globals/colors?id=fsihead",
                "typography_typography": "globals/typography?id=fsih3cd"
-              }
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "heading"
+             "isInner": false,
+             "widgetType": "heading",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           },
           {
-           "id": "2e2677a",
-           "elType": "container",
+           "id": "2274a148",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -2241,52 +2324,61 @@
            },
            "elements": [
             {
-             "id": "cbc1267",
-             "elType": "widget",
+             "id": "43b269bb",
              "settings": {
               "editor": "<p>Job-embedded coaching, demonstration lessons, and implementation support for lasting impact.</p>",
-              "_flex_size": "grow",
               "__globals__": {
-               "text_color": "globals/colors?id=text",
-               "typography_typography": "globals/typography?id=fsibdsm"
-              }
+               "text_color": "globals/colors?id=d67b0ce",
+               "typography_typography": "globals/typography?id=text"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "text-editor"
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
             },
             {
-             "id": "d9a3ce9",
-             "elType": "widget",
+             "id": "5bbc816f",
              "settings": {
               "selected_icon": {
                "value": "fas fa-chevron-right",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 13,
                "sizes": []
               },
               "__globals__": {
-               "primary_color": "globals/colors?id=fsihead"
-              }
+               "primary_color": "globals/colors?id=primary"
+              },
+              "size": {
+               "unit": "px",
+               "size": 16,
+               "sizes": []
+              },
+              "_flex_size": "grow"
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "138b0ed",
-       "elType": "container",
+       "id": "328e6e67",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -2362,8 +2454,7 @@
        },
        "elements": [
         {
-         "id": "d4e9fa6",
-         "elType": "widget",
+         "id": "545f478",
          "settings": {
           "image_size": "full",
           "width": {
@@ -2384,23 +2475,31 @@
            "size": 180,
            "sizes": []
           },
-          "object-fit": "cover"
+          "object-fit": "cover",
+          "image": {
+           "id": 77573,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-caleboquendo-34708269.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          }
          },
          "elements": [],
-         "widgetType": "image"
+         "isInner": false,
+         "widgetType": "image",
+         "elType": "widget"
         },
         {
-         "id": "e012038",
-         "elType": "container",
+         "id": "1ef374d0",
          "settings": {
           "content_width": "full",
           "flex_direction": "column",
           "flex_gap": {
-           "column": "8",
-           "row": "8",
+           "column": "4",
+           "row": "4",
            "isLinked": true,
            "unit": "px",
-           "size": 8
+           "size": 4
           },
           "padding": {
            "unit": "px",
@@ -2413,8 +2512,7 @@
          },
          "elements": [
           {
-           "id": "a43641f",
-           "elType": "container",
+           "id": "64a91d4d",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -2437,14 +2535,12 @@
            },
            "elements": [
             {
-             "id": "d81d3a3",
-             "elType": "widget",
+             "id": "3cc7fabb",
              "settings": {
               "selected_icon": {
                "value": "fas fa-layer-group",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 22,
@@ -2455,28 +2551,32 @@
               }
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             },
             {
-             "id": "7dcb161",
-             "elType": "widget",
+             "id": "1727dac8",
              "settings": {
               "title": "FSI Publishing",
               "header_size": "h3",
               "__globals__": {
                "title_color": "globals/colors?id=fsihead",
                "typography_typography": "globals/typography?id=fsih3cd"
-              }
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "heading"
+             "isInner": false,
+             "widgetType": "heading",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           },
           {
-           "id": "bda40df",
-           "elType": "container",
+           "id": "5c9dbddc",
            "settings": {
             "content_width": "full",
             "flex_direction": "row",
@@ -2499,65 +2599,70 @@
            },
            "elements": [
             {
-             "id": "65ae2ff",
-             "elType": "widget",
+             "id": "159518f5",
              "settings": {
               "editor": "<p>Workbooks, games, classroom kits, and assessment-preparation products for Georgia science.</p>",
-              "_flex_size": "grow",
               "__globals__": {
-               "text_color": "globals/colors?id=text",
-               "typography_typography": "globals/typography?id=fsibdsm"
-              }
+               "text_color": "globals/colors?id=d67b0ce",
+               "typography_typography": "globals/typography?id=text"
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "text-editor"
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
             },
             {
-             "id": "317bbb1",
-             "elType": "widget",
+             "id": "5349693e",
              "settings": {
               "selected_icon": {
                "value": "fas fa-chevron-right",
                "library": "fa-solid"
               },
-              "view": "default",
               "icon_size": {
                "unit": "px",
                "size": 13,
                "sizes": []
               },
               "__globals__": {
-               "primary_color": "globals/colors?id=fsihead"
-              }
+               "primary_color": "globals/colors?id=primary"
+              },
+              "size": {
+               "unit": "px",
+               "size": 16,
+               "sizes": []
+              },
+              "_flex_size": "grow"
              },
              "elements": [],
-             "widgetType": "icon"
+             "isInner": false,
+             "widgetType": "icon",
+             "elType": "widget"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "16cb6ae",
-   "elType": "container",
+   "id": "72b30a5c",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "column",
     "flex_gap": {
      "column": "32",
@@ -2589,8 +2694,7 @@
    },
    "elements": [
     {
-     "id": "9545c46",
-     "elType": "container",
+     "id": "4185e24e",
      "settings": {
       "content_width": "full",
       "flex_direction": "row",
@@ -2614,8 +2718,7 @@
      },
      "elements": [
       {
-       "id": "1bfc22e",
-       "elType": "container",
+       "id": "24ab976f",
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
@@ -2639,11 +2742,11 @@
         },
         "padding": {
          "unit": "px",
-         "top": "32",
-         "right": "28",
-         "bottom": "32",
-         "left": "28",
-         "isLinked": false
+         "top": "25",
+         "right": "25",
+         "bottom": "25",
+         "left": "25",
+         "isLinked": true
         },
         "padding_mobile": {
          "unit": "px",
@@ -2655,7 +2758,7 @@
         },
         "width": {
          "unit": "%",
-         "size": 48,
+         "size": 50,
          "sizes": []
         },
         "width_tablet": {
@@ -2674,8 +2777,7 @@
        },
        "elements": [
         {
-         "id": "6e5deaa",
-         "elType": "container",
+         "id": "78ba1f03",
          "settings": {
           "content_width": "full",
           "flex_direction": "column",
@@ -2712,35 +2814,37 @@
          },
          "elements": [
           {
-           "id": "e537eae",
-           "elType": "widget",
+           "id": "254d957c",
            "settings": {
             "title": "Experience an FSI Interactive Lesson",
-            "header_size": "h2",
             "__globals__": {
              "title_color": "globals/colors?id=fsiwhit",
              "typography_typography": "globals/typography?id=primary"
-            }
+            },
+            "eael_vto_writing_gradient_color_repeater": []
            },
            "elements": [],
-           "widgetType": "heading"
+           "isInner": false,
+           "widgetType": "heading",
+           "elType": "widget"
           },
           {
-           "id": "9806760",
-           "elType": "widget",
+           "id": "4767cb7a",
            "settings": {
             "editor": "<p>See how our interactive content builds understanding, engages students, and prepares them for Georgia Milestones.</p>",
             "__globals__": {
              "text_color": "globals/colors?id=fsiwhit",
              "typography_typography": "globals/typography?id=text"
-            }
+            },
+            "eael_vto_writing_gradient_color_repeater": []
            },
            "elements": [],
-           "widgetType": "text-editor"
+           "isInner": false,
+           "widgetType": "text-editor",
+           "elType": "widget"
           },
           {
-           "id": "ef2cd05",
-           "elType": "widget",
+           "id": "4f0131ec",
            "settings": {
             "text": "Try a Sample Interactive",
             "link": {
@@ -2776,8 +2880,6 @@
              "value": "fas fa-arrow-right",
              "library": "fa-solid"
             },
-            "background_background": "classic",
-            "button_background_hover_background": "classic",
             "__globals__": {
              "typography_typography": "globals/typography?id=accent",
              "button_text_color": "globals/colors?id=fsihead",
@@ -2787,14 +2889,16 @@
             }
            },
            "elements": [],
-           "widgetType": "button"
+           "isInner": false,
+           "widgetType": "button",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         },
         {
-         "id": "7cefd5c",
-         "elType": "container",
+         "id": "2f629eba",
          "settings": {
           "content_width": "full",
           "flex_direction": "column",
@@ -2832,8 +2936,7 @@
          },
          "elements": [
           {
-           "id": "6385d76",
-           "elType": "widget",
+           "id": "3cee0d58",
            "settings": {
             "image_size": "full",
             "width": {
@@ -2848,20 +2951,30 @@
              "bottom": "8",
              "left": "8",
              "isLinked": true
+            },
+            "image": {
+             "id": 981,
+             "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/04/interactive-dashboard-1-scaled.png",
+             "alt": "",
+             "source": "library",
+             "size": ""
             }
            },
            "elements": [],
-           "widgetType": "image"
+           "isInner": false,
+           "widgetType": "image",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "536c62a",
-       "elType": "container",
+       "id": "1389f053",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -2908,7 +3021,7 @@
         },
         "width": {
          "unit": "%",
-         "size": 52,
+         "size": 50,
          "sizes": []
         },
         "width_tablet": {
@@ -2928,35 +3041,37 @@
        },
        "elements": [
         {
-         "id": "f30609b",
-         "elType": "widget",
+         "id": "e5e1d49",
          "settings": {
           "title": "Proven Results in Georgia",
-          "header_size": "h2",
           "__globals__": {
            "title_color": "globals/colors?id=primary",
            "typography_typography": "globals/typography?id=fsih3cd"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "heading"
+         "isInner": false,
+         "widgetType": "heading",
+         "elType": "widget"
         },
         {
-         "id": "801ea39",
-         "elType": "widget",
+         "id": "52e5e082",
          "settings": {
           "editor": "<p>FSI schools are seeing measurable gains in science achievement.</p>",
           "__globals__": {
-           "text_color": "globals/colors?id=text",
-           "typography_typography": "globals/typography?id=fsibdsm"
-          }
+           "text_color": "globals/colors?id=d67b0ce",
+           "typography_typography": "globals/typography?id=text"
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "text-editor"
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
         },
         {
-         "id": "a2acfe1",
-         "elType": "container",
+         "id": "4f8a098b",
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
@@ -2979,8 +3094,7 @@
          },
          "elements": [
           {
-           "id": "52e200a",
-           "elType": "container",
+           "id": "45f33dec",
            "settings": {
             "content_width": "full",
             "flex_direction": "column",
@@ -3017,8 +3131,7 @@
            },
            "elements": [
             {
-             "id": "2a83234",
-             "elType": "container",
+             "id": "60a84560",
              "settings": {
               "content_width": "full",
               "flex_direction": "row",
@@ -3041,8 +3154,7 @@
              },
              "elements": [
               {
-               "id": "370325f",
-               "elType": "container",
+               "id": "79c1afa1",
                "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
@@ -3068,20 +3180,20 @@
                 }
                },
                "elements": [],
-               "isInner": true
+               "isInner": true,
+               "elType": "container"
               },
               {
-               "id": "7e9a92d",
-               "elType": "container",
+               "id": "28f901f5",
                "settings": {
                 "content_width": "full",
-                "flex_direction": "column",
+                "flex_direction": "row",
                 "flex_gap": {
-                 "column": "0",
-                 "row": "0",
+                 "column": "10",
+                 "row": "10",
                  "isLinked": true,
                  "unit": "px",
-                 "size": 0
+                 "size": 10
                 },
                 "padding": {
                  "unit": "px",
@@ -3110,12 +3222,13 @@
                 },
                 "__globals__": {
                  "border_color": "globals/colors?id=fsigren"
-                }
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "center"
                },
                "elements": [
                 {
-                 "id": "8e9a801",
-                 "elType": "widget",
+                 "id": "5756fde8",
                  "settings": {
                   "title": "+9",
                   "header_size": "p",
@@ -3123,14 +3236,16 @@
                   "__globals__": {
                    "title_color": "globals/colors?id=fsigren",
                    "typography_typography": "globals/typography?id=fsistat"
-                  }
+                  },
+                  "eael_vto_writing_gradient_color_repeater": []
                  },
                  "elements": [],
-                 "widgetType": "heading"
+                 "isInner": false,
+                 "widgetType": "heading",
+                 "elType": "widget"
                 },
                 {
-                 "id": "5d260d6",
-                 "elType": "widget",
+                 "id": "2c705840",
                  "settings": {
                   "title": "percentage points",
                   "header_size": "p",
@@ -3138,29 +3253,33 @@
                   "__globals__": {
                    "title_color": "globals/colors?id=fsigren",
                    "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                  },
+                  "eael_vto_writing_gradient_color_repeater": []
                  },
                  "elements": [],
-                 "widgetType": "heading"
+                 "isInner": false,
+                 "widgetType": "heading",
+                 "elType": "widget"
                 }
                ],
-               "isInner": true
+               "isInner": true,
+               "elType": "container"
               }
              ],
-             "isInner": true
+             "isInner": true,
+             "elType": "container"
             },
             {
-             "id": "248e90b",
-             "elType": "container",
+             "id": "360ecf35",
              "settings": {
               "content_width": "full",
               "flex_direction": "row",
               "flex_gap": {
-               "column": "8",
-               "row": "8",
+               "column": "0",
+               "row": "0",
                "isLinked": true,
                "unit": "px",
-               "size": 8
+               "size": 0
               },
               "padding": {
                "unit": "px",
@@ -3174,24 +3293,67 @@
              },
              "elements": [
               {
-               "id": "abc7823",
-               "elType": "widget",
+               "id": "2575597c",
                "settings": {
-                "title": "Georgia Milestones (% Proficient + Distinguished)",
+                "title": "Georgia Milestones\n",
                 "header_size": "p",
                 "_css_classes": "fsi-rotate",
                 "_flex_size": "none",
                 "__globals__": {
                  "title_color": "globals/colors?id=fsihead",
                  "typography_typography": "globals/typography?id=fsicapt"
-                }
+                },
+                "eael_vto_writing_gradient_color_repeater": []
                },
                "elements": [],
-               "widgetType": "heading"
+               "isInner": false,
+               "widgetType": "heading",
+               "elType": "widget"
               },
               {
-               "id": "9200a15",
-               "elType": "container",
+               "id": "683f900f",
+               "settings": {
+                "title": "(% Proficient + Distinguished)",
+                "header_size": "p",
+                "_css_classes": "fsi-rotate",
+                "_flex_size": "none",
+                "__globals__": {
+                 "title_color": "globals/colors?id=fsihead",
+                 "typography_typography": ""
+                },
+                "eael_vto_writing_gradient_color_repeater": [],
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 12,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 12,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 12,
+                 "sizes": []
+                },
+                "typography_font_weight": "600",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.4,
+                 "sizes": []
+                },
+                "title_color": "#0C1A3A"
+               },
+               "elements": [],
+               "isInner": false,
+               "widgetType": "heading",
+               "elType": "widget"
+              },
+              {
+               "id": "2ea4b2d4",
                "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
@@ -3220,99 +3382,263 @@
                  "unit": "px",
                  "size": 40,
                  "sizes": []
+                },
+                "margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "5",
+                 "bottom": "0",
+                 "left": "10",
+                 "isLinked": false
                 }
                },
                "elements": [
                 {
-                 "id": "7614c6a",
-                 "elType": "widget",
+                 "id": "5203b641",
                  "settings": {
                   "editor": "<p>100%</p>",
                   "align": "right",
                   "__globals__": {
                    "text_color": "globals/colors?id=fsihead",
-                   "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                   "typography_typography": ""
+                  },
+                  "eael_vto_writing_gradient_color_repeater": [],
+                  "typography_typography": "custom",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_tablet": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_mobile": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_weight": "700",
+                  "typography_line_height": {
+                   "unit": "em",
+                   "size": 1.4,
+                   "sizes": []
+                  },
+                  "text_color": "#0C1A3A"
                  },
                  "elements": [],
-                 "widgetType": "text-editor"
+                 "isInner": false,
+                 "widgetType": "text-editor",
+                 "elType": "widget"
                 },
                 {
-                 "id": "083b531",
-                 "elType": "widget",
+                 "id": "2b2f935b",
                  "settings": {
                   "editor": "<p>80%</p>",
                   "align": "right",
                   "__globals__": {
                    "text_color": "globals/colors?id=fsihead",
-                   "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                   "typography_typography": ""
+                  },
+                  "eael_vto_writing_gradient_color_repeater": [],
+                  "typography_typography": "custom",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_tablet": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_mobile": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_weight": "700",
+                  "typography_line_height": {
+                   "unit": "em",
+                   "size": 1.4,
+                   "sizes": []
+                  },
+                  "text_color": "#0C1A3A"
                  },
                  "elements": [],
-                 "widgetType": "text-editor"
+                 "isInner": false,
+                 "widgetType": "text-editor",
+                 "elType": "widget"
                 },
                 {
-                 "id": "7b9ea66",
-                 "elType": "widget",
+                 "id": "7dce0e31",
                  "settings": {
                   "editor": "<p>60%</p>",
                   "align": "right",
                   "__globals__": {
                    "text_color": "globals/colors?id=fsihead",
-                   "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                   "typography_typography": ""
+                  },
+                  "eael_vto_writing_gradient_color_repeater": [],
+                  "typography_typography": "custom",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_tablet": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_mobile": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_weight": "700",
+                  "typography_line_height": {
+                   "unit": "em",
+                   "size": 1.4,
+                   "sizes": []
+                  },
+                  "text_color": "#0C1A3A"
                  },
                  "elements": [],
-                 "widgetType": "text-editor"
+                 "isInner": false,
+                 "widgetType": "text-editor",
+                 "elType": "widget"
                 },
                 {
-                 "id": "c1ca746",
-                 "elType": "widget",
+                 "id": "5bcd6393",
                  "settings": {
                   "editor": "<p>40%</p>",
                   "align": "right",
                   "__globals__": {
                    "text_color": "globals/colors?id=fsihead",
-                   "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                   "typography_typography": ""
+                  },
+                  "eael_vto_writing_gradient_color_repeater": [],
+                  "typography_typography": "custom",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_tablet": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_mobile": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_weight": "700",
+                  "typography_line_height": {
+                   "unit": "em",
+                   "size": 1.4,
+                   "sizes": []
+                  },
+                  "text_color": "#0C1A3A"
                  },
                  "elements": [],
-                 "widgetType": "text-editor"
+                 "isInner": false,
+                 "widgetType": "text-editor",
+                 "elType": "widget"
                 },
                 {
-                 "id": "eebdc58",
-                 "elType": "widget",
+                 "id": "4ac4049a",
                  "settings": {
                   "editor": "<p>20%</p>",
                   "align": "right",
                   "__globals__": {
                    "text_color": "globals/colors?id=fsihead",
-                   "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                   "typography_typography": ""
+                  },
+                  "eael_vto_writing_gradient_color_repeater": [],
+                  "typography_typography": "custom",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_tablet": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_mobile": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_weight": "700",
+                  "typography_line_height": {
+                   "unit": "em",
+                   "size": 1.4,
+                   "sizes": []
+                  },
+                  "text_color": "#0C1A3A"
                  },
                  "elements": [],
-                 "widgetType": "text-editor"
+                 "isInner": false,
+                 "widgetType": "text-editor",
+                 "elType": "widget"
                 },
                 {
-                 "id": "69ff0a7",
-                 "elType": "widget",
+                 "id": "5a5f9947",
                  "settings": {
                   "editor": "<p>0%</p>",
                   "align": "right",
                   "__globals__": {
                    "text_color": "globals/colors?id=fsihead",
-                   "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                   "typography_typography": ""
+                  },
+                  "eael_vto_writing_gradient_color_repeater": [],
+                  "typography_typography": "custom",
+                  "typography_font_family": "Inter",
+                  "typography_font_size": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_tablet": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_size_mobile": {
+                   "unit": "px",
+                   "size": 12,
+                   "sizes": []
+                  },
+                  "typography_font_weight": "700",
+                  "typography_line_height": {
+                   "unit": "em",
+                   "size": 1.4,
+                   "sizes": []
+                  },
+                  "text_color": "#0C1A3A"
                  },
                  "elements": [],
-                 "widgetType": "text-editor"
+                 "isInner": false,
+                 "widgetType": "text-editor",
+                 "elType": "widget"
                 }
                ],
-               "isInner": true
+               "isInner": true,
+               "elType": "container"
               },
               {
-               "id": "7dc2f7f",
-               "elType": "container",
+               "id": "38762643",
                "settings": {
                 "content_width": "full",
                 "flex_direction": "row",
@@ -3347,15 +3673,13 @@
                  "left": "1",
                  "isLinked": false
                 },
-                "_flex_size": "grow",
                 "__globals__": {
                  "border_color": "globals/colors?id=fsimute"
                 }
                },
                "elements": [
                 {
-                 "id": "deddc4d",
-                 "elType": "container",
+                 "id": "2f626960",
                  "settings": {
                   "content_width": "full",
                   "flex_direction": "column",
@@ -3388,8 +3712,7 @@
                  },
                  "elements": [
                   {
-                   "id": "c1286e4",
-                   "elType": "widget",
+                   "id": "7bafc81a",
                    "settings": {
                     "title": "62%",
                     "header_size": "p",
@@ -3397,14 +3720,16 @@
                     "__globals__": {
                      "title_color": "globals/colors?id=fsihead",
                      "typography_typography": "globals/typography?id=fsistat"
-                    }
+                    },
+                    "eael_vto_writing_gradient_color_repeater": []
                    },
                    "elements": [],
-                   "widgetType": "heading"
+                   "isInner": false,
+                   "widgetType": "heading",
+                   "elType": "widget"
                   },
                   {
-                   "id": "fb09000",
-                   "elType": "container",
+                   "id": "3a0631ba",
                    "settings": {
                     "content_width": "full",
                     "min_height": {
@@ -3412,7 +3737,7 @@
                      "size": 118,
                      "sizes": []
                     },
-                    "background_background": "classic",
+                    "background_background": "gradient",
                     "_css_classes": "fsi-bar",
                     "width": {
                      "unit": "%",
@@ -3420,18 +3745,20 @@
                      "sizes": []
                     },
                     "__globals__": {
-                     "background_color": "globals/colors?id=accent"
+                     "background_color": "globals/colors?id=accent",
+                     "background_color_b": "globals/colors?id=primary"
                     }
                    },
                    "elements": [],
-                   "isInner": true
+                   "isInner": true,
+                   "elType": "container"
                   }
                  ],
-                 "isInner": true
+                 "isInner": true,
+                 "elType": "container"
                 },
                 {
-                 "id": "defc114",
-                 "elType": "container",
+                 "id": "519e2569",
                  "settings": {
                   "content_width": "full",
                   "flex_direction": "column",
@@ -3464,8 +3791,7 @@
                  },
                  "elements": [
                   {
-                   "id": "18c5fb1",
-                   "elType": "widget",
+                   "id": "2024d20c",
                    "settings": {
                     "title": "71%",
                     "header_size": "p",
@@ -3473,14 +3799,16 @@
                     "__globals__": {
                      "title_color": "globals/colors?id=fsihead",
                      "typography_typography": "globals/typography?id=fsistat"
-                    }
+                    },
+                    "eael_vto_writing_gradient_color_repeater": []
                    },
                    "elements": [],
-                   "widgetType": "heading"
+                   "isInner": false,
+                   "widgetType": "heading",
+                   "elType": "widget"
                   },
                   {
-                   "id": "08a8d6b",
-                   "elType": "container",
+                   "id": "6b6201a8",
                    "settings": {
                     "content_width": "full",
                     "min_height": {
@@ -3488,7 +3816,7 @@
                      "size": 135,
                      "sizes": []
                     },
-                    "background_background": "classic",
+                    "background_background": "gradient",
                     "_css_classes": "fsi-bar",
                     "width": {
                      "unit": "%",
@@ -3496,24 +3824,28 @@
                      "sizes": []
                     },
                     "__globals__": {
-                     "background_color": "globals/colors?id=secondary"
+                     "background_color": "globals/colors?id=secondary",
+                     "background_color_b": "globals/colors?id=d118be8"
                     }
                    },
                    "elements": [],
-                   "isInner": true
+                   "isInner": true,
+                   "elType": "container"
                   }
                  ],
-                 "isInner": true
+                 "isInner": true,
+                 "elType": "container"
                 }
                ],
-               "isInner": true
+               "isInner": true,
+               "elType": "container"
               }
              ],
-             "isInner": true
+             "isInner": true,
+             "elType": "container"
             },
             {
-             "id": "aefdce4",
-             "elType": "container",
+             "id": "6e160a24",
              "settings": {
               "content_width": "full",
               "flex_direction": "row",
@@ -3531,12 +3863,17 @@
                "bottom": "0",
                "left": "0",
                "isLinked": true
-              }
+              },
+              "width": {
+               "unit": "%",
+               "size": 75,
+               "sizes": []
+              },
+              "_flex_align_self": "flex-end"
              },
              "elements": [
               {
-               "id": "ffa3bda",
-               "elType": "container",
+               "id": "199260bc",
                "settings": {
                 "content_width": "full",
                 "flex_direction": "column",
@@ -3562,11 +3899,11 @@
                 }
                },
                "elements": [],
-               "isInner": true
+               "isInner": true,
+               "elType": "container"
               },
               {
-               "id": "ce4ef56",
-               "elType": "container",
+               "id": "6223f22f",
                "settings": {
                 "content_width": "full",
                 "flex_direction": "row",
@@ -3590,8 +3927,7 @@
                },
                "elements": [
                 {
-                 "id": "bc4b3fc",
-                 "elType": "widget",
+                 "id": "59173ead",
                  "settings": {
                   "title": "Before FSI",
                   "header_size": "p",
@@ -3600,14 +3936,16 @@
                   "__globals__": {
                    "title_color": "globals/colors?id=fsihead",
                    "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                  },
+                  "eael_vto_writing_gradient_color_repeater": []
                  },
                  "elements": [],
-                 "widgetType": "heading"
+                 "isInner": false,
+                 "widgetType": "heading",
+                 "elType": "widget"
                 },
                 {
-                 "id": "77c3d00",
-                 "elType": "widget",
+                 "id": "2a8014ed",
                  "settings": {
                   "title": "After FSI",
                   "header_size": "p",
@@ -3616,23 +3954,28 @@
                   "__globals__": {
                    "title_color": "globals/colors?id=fsihead",
                    "typography_typography": "globals/typography?id=fsicapt"
-                  }
+                  },
+                  "eael_vto_writing_gradient_color_repeater": []
                  },
                  "elements": [],
-                 "widgetType": "heading"
+                 "isInner": false,
+                 "widgetType": "heading",
+                 "elType": "widget"
                 }
                ],
-               "isInner": true
+               "isInner": true,
+               "elType": "container"
               }
              ],
-             "isInner": true
+             "isInner": true,
+             "elType": "container"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           },
           {
-           "id": "5a85585",
-           "elType": "container",
+           "id": "5e68b364",
            "settings": {
             "content_width": "full",
             "flex_direction": "column",
@@ -3669,15 +4012,10 @@
            },
            "elements": [
             {
-             "id": "08f2c42",
-             "elType": "widget",
+             "id": "407b4c93",
              "settings": {
-              "video_type": "youtube",
               "youtube_url": "https://www.youtube.com/watch?v=XHOmBV4js_E",
               "show_image_overlay": "yes",
-              "image_overlay_size": "full",
-              "lightbox": "",
-              "aspect_ratio": "169",
               "_border_radius": {
                "unit": "px",
                "top": "8",
@@ -3685,27 +4023,41 @@
                "bottom": "8",
                "left": "8",
                "isLinked": true
-              }
+              },
+              "image_overlay": {
+               "id": 77633,
+               "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-karola-g-5399032-e1795519146286.jpg",
+               "alt": "",
+               "source": "library",
+               "size": ""
+              },
+              "vimeo_url": "https://vimeo.com/235215203",
+              "dailymotion_url": "https://www.dailymotion.com/video/x6tqhqb",
+              "videopress_url": "https://videopress.com/v/ZCAOzTNk",
+              "lightbox": "yes"
              },
              "elements": [],
-             "widgetType": "video"
+             "isInner": false,
+             "widgetType": "video",
+             "elType": "widget"
             },
             {
-             "id": "43360d8",
-             "elType": "widget",
+             "id": "12b0ed10",
              "settings": {
               "editor": "<p>“FSI gave our teachers the tools, the support, and the confidence to make science come alive for our students.”</p>",
               "__globals__": {
                "text_color": "globals/colors?id=fsihead",
                "typography_typography": "globals/typography?id=fsiquot"
-              }
+              },
+              "eael_vto_writing_gradient_color_repeater": []
              },
              "elements": [],
-             "widgetType": "text-editor"
+             "isInner": false,
+             "widgetType": "text-editor",
+             "elType": "widget"
             },
             {
-             "id": "62987f1",
-             "elType": "container",
+             "id": "2667bd76",
              "settings": {
               "content_width": "full",
               "flex_direction": "column",
@@ -3727,60 +4079,63 @@
              },
              "elements": [
               {
-               "id": "d8b9a79",
-               "elType": "widget",
+               "id": "5398165a",
                "settings": {
                 "title": "Dr. Shawanda Williams",
                 "header_size": "p",
                 "__globals__": {
                  "title_color": "globals/colors?id=fsihead",
                  "typography_typography": "globals/typography?id=fsih4sm"
-                }
+                },
+                "eael_vto_writing_gradient_color_repeater": []
                },
                "elements": [],
-               "widgetType": "heading"
+               "isInner": false,
+               "widgetType": "heading",
+               "elType": "widget"
               },
               {
-               "id": "673e8eb",
-               "elType": "widget",
+               "id": "1a299b54",
                "settings": {
                 "editor": "<p>Principal, [Georgia Elementary School]</p>",
                 "__globals__": {
                  "text_color": "globals/colors?id=fsimute",
                  "typography_typography": "globals/typography?id=fsicapt"
-                }
+                },
+                "eael_vto_writing_gradient_color_repeater": []
                },
                "elements": [],
-               "widgetType": "text-editor"
+               "isInner": false,
+               "widgetType": "text-editor",
+               "elType": "widget"
               }
              ],
-             "isInner": true
+             "isInner": true,
+             "elType": "container"
             }
            ],
-           "isInner": true
+           "isInner": true,
+           "elType": "container"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "7744775",
-   "elType": "container",
+   "id": "6c6e88e9",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1440,
-     "sizes": []
-    },
     "flex_direction": "row",
     "flex_wrap_tablet": "wrap",
     "flex_align_items": "center",
@@ -3815,10 +4170,8 @@
      "left": "16",
      "isLinked": false
     },
-    "background_background": "gradient",
-    "background_color": "#03234F",
+    "background_background": "classic",
     "background_color_b": "#0A3D80",
-    "background_gradient_type": "linear",
     "background_gradient_angle": {
      "unit": "deg",
      "size": 90,
@@ -3826,14 +4179,47 @@
     },
     "_element_id": "professional-learning",
     "__globals__": {
-     "background_color": "globals/colors?id=fsideep",
-     "background_color_b": "globals/colors?id=primary"
+     "background_color": "",
+     "background_color_b": "globals/colors?id=primary",
+     "background_overlay_color_b": "globals/colors?id=primary",
+     "background_overlay_color": ""
+    },
+    "background_image": {
+     "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-pavel-danilyuk-8423072-768x513.jpg",
+     "id": 77637,
+     "size": "medium_large",
+     "alt": "",
+     "source": "library"
+    },
+    "background_position": "center left",
+    "background_repeat": "no-repeat",
+    "background_size": "contain",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "#004AAD00",
+    "background_overlay_color_stop": {
+     "unit": "%",
+     "size": 22,
+     "sizes": []
+    },
+    "background_overlay_color_b_stop": {
+     "unit": "%",
+     "size": 28,
+     "sizes": []
+    },
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90,
+     "sizes": []
+    },
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 1,
+     "sizes": []
     }
    },
    "elements": [
     {
-     "id": "564c170",
-     "elType": "container",
+     "id": "52754b4f",
      "settings": {
       "content_width": "full",
       "flex_direction": "column",
@@ -3867,12 +4253,28 @@
        "unit": "%",
        "size": 100,
        "sizes": []
+      },
+      "background_background": "classic",
+      "background_image": {
+       "url": "",
+       "id": "",
+       "size": "",
+       "alt": "",
+       "source": "library"
+      },
+      "background_overlay_opacity": {
+       "unit": "px",
+       "size": 0.78,
+       "sizes": []
+      },
+      "_flex_align_self": "stretch",
+      "__globals__": {
+       "background_overlay_color_b": "globals/colors?id=0905b78"
       }
      },
      "elements": [
       {
-       "id": "01907a1",
-       "elType": "widget",
+       "id": "2b95ff2f",
        "settings": {
         "image_size": "full",
         "width": {
@@ -3893,17 +4295,40 @@
          "size": 380,
          "sizes": []
         },
-        "object-fit": "cover"
+        "object-fit": "cover",
+        "image": {
+         "id": "",
+         "url": "",
+         "alt": "",
+         "source": "library",
+         "size": ""
+        },
+        "opacity": {
+         "unit": "px",
+         "size": 1,
+         "sizes": []
+        },
+        "eael_liquid_glass_effect_backdrop_filter_effect1": {
+         "unit": "px",
+         "size": 22,
+         "sizes": []
+        },
+        "__globals__": {
+         "_background_color_b": "globals/colors?id=0905b78",
+         "_background_color": "globals/colors?id=secondary"
+        }
        },
        "elements": [],
-       "widgetType": "image"
+       "isInner": false,
+       "widgetType": "image",
+       "elType": "widget"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     },
     {
-     "id": "0ffb329",
-     "elType": "container",
+     "id": "18f10002",
      "settings": {
       "content_width": "full",
       "flex_direction": "column",
@@ -3949,8 +4374,7 @@
      },
      "elements": [
       {
-       "id": "836939b",
-       "elType": "container",
+       "id": "2725c2ce",
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
@@ -3973,14 +4397,12 @@
        },
        "elements": [
         {
-         "id": "aff0c3d",
-         "elType": "widget",
+         "id": "5edc38bb",
          "settings": {
           "selected_icon": {
            "value": "far fa-calendar-alt",
            "library": "fa-regular"
           },
-          "view": "default",
           "icon_size": {
            "unit": "px",
            "size": 30,
@@ -3991,11 +4413,12 @@
           }
          },
          "elements": [],
-         "widgetType": "icon"
+         "isInner": false,
+         "widgetType": "icon",
+         "elType": "widget"
         },
         {
-         "id": "8dd6016",
-         "elType": "container",
+         "id": "5e9d1b68",
          "settings": {
           "content_width": "full",
           "flex_direction": "column",
@@ -4017,110 +4440,100 @@
          },
          "elements": [
           {
-           "id": "c28ec59",
-           "elType": "widget",
+           "id": "3147cbb",
            "settings": {
             "title": "2027 FSI Milestones Prep School Tour",
             "header_size": "p",
             "__globals__": {
              "title_color": "globals/colors?id=secondary",
              "typography_typography": "globals/typography?id=fsih4sm"
-            }
+            },
+            "eael_vto_writing_gradient_color_repeater": []
            },
            "elements": [],
-           "widgetType": "heading"
+           "isInner": false,
+           "widgetType": "heading",
+           "elType": "widget"
           },
           {
-           "id": "6f6f322",
-           "elType": "widget",
+           "id": "487fc87c",
            "settings": {
             "editor": "<p>January – April 2027</p>",
             "__globals__": {
              "text_color": "globals/colors?id=fsiwhit",
              "typography_typography": "globals/typography?id=fsibdsm"
-            }
+            },
+            "eael_vto_writing_gradient_color_repeater": []
            },
            "elements": [],
-           "widgetType": "text-editor"
+           "isInner": false,
+           "widgetType": "text-editor",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "f4c0b0a",
-       "elType": "widget",
+       "id": "13cc38bb",
        "settings": {
         "title": "Bring The FSI Way to Your School",
-        "header_size": "h2",
         "__globals__": {
          "title_color": "globals/colors?id=fsiwhit",
          "typography_typography": "globals/typography?id=primary"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "heading"
+       "isInner": false,
+       "widgetType": "heading",
+       "elType": "widget"
       },
       {
-       "id": "137b8ce",
-       "elType": "widget",
+       "id": "78dac652",
        "settings": {
         "editor": "<p>Request professional learning for your science teachers. Choose your preferred grade, focus, and dates—or join the priority waitlist if your dates are not available.</p>",
         "__globals__": {
          "text_color": "globals/colors?id=fsiwhit",
          "typography_typography": "globals/typography?id=text"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "text-editor"
+       "isInner": false,
+       "widgetType": "text-editor",
+       "elType": "widget"
       },
       {
-       "id": "e3167aa",
-       "elType": "widget",
+       "id": "1947cf57",
        "settings": {
         "icon_list": [
          {
-          "_id": "343e243",
+          "_id": "70961e1",
           "text": "Milestones preparation",
           "selected_icon": {
            "value": "fas fa-check-circle",
            "library": "fa-solid"
-          },
-          "link": {
-           "url": "",
-           "is_external": "",
-           "nofollow": "",
-           "custom_attributes": ""
           }
          },
          {
-          "_id": "08c2769",
+          "_id": "e3167aa",
           "text": "The FSI Way implementation",
           "selected_icon": {
            "value": "fas fa-check-circle",
            "library": "fa-solid"
-          },
-          "link": {
-           "url": "",
-           "is_external": "",
-           "nofollow": "",
-           "custom_attributes": ""
           }
          },
          {
-          "_id": "70961e1",
+          "_id": "0ffb329",
           "text": "On-site or virtual professional learning",
           "selected_icon": {
            "value": "fas fa-check-circle",
            "library": "fa-solid"
-          },
-          "link": {
-           "url": "",
-           "is_external": "",
-           "nofollow": "",
-           "custom_attributes": ""
           }
          }
         ],
@@ -4147,14 +4560,16 @@
         }
        },
        "elements": [],
-       "widgetType": "icon-list"
+       "isInner": false,
+       "widgetType": "icon-list",
+       "elType": "widget"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     },
     {
-     "id": "3d4a2dc",
-     "elType": "container",
+     "id": "6bf29a3d",
      "settings": {
       "content_width": "full",
       "flex_direction": "column",
@@ -4211,60 +4626,99 @@
      },
      "elements": [
       {
-       "id": "8c37e87",
-       "elType": "widget",
+       "id": "4d8576",
        "settings": {
         "title": "Request Professional Learning",
         "header_size": "h3",
         "__globals__": {
          "title_color": "globals/colors?id=fsihead",
          "typography_typography": "globals/typography?id=fsih3cd"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "heading"
+       "isInner": false,
+       "widgetType": "heading",
+       "elType": "widget"
       },
       {
-       "id": "d757a0a",
-       "elType": "widget",
+       "id": "6436c6b5",
        "settings": {
         "form_name": "Request Professional Learning",
         "form_fields": [
          {
-          "_id": "0223878",
+          "_id": "238c782",
           "custom_id": "grade",
           "field_type": "select",
           "field_label": "Grade or Subject",
           "field_options": "3rd Grade\n4th Grade\n5th Grade\n6th Grade\n7th Grade\n8th Grade\nBiology\nPhysical Science",
           "width": "50",
           "width_mobile": "100",
-          "required": "true"
+          "required": "true",
+          "previous_button": "",
+          "next_button": "",
+          "file_sizes": "",
+          "file_types": "",
+          "allow_multiple_upload": "",
+          "max_files": "",
+          "acceptance_text": "",
+          "checked_by_default": "",
+          "field_min": "",
+          "field_max": "",
+          "min_date": "",
+          "max_date": "",
+          "use_native_date": "",
+          "use_native_time": ""
          },
          {
-          "_id": "16df7df",
+          "_id": "d757a0a",
           "custom_id": "month",
           "field_type": "select",
           "field_label": "Preferred Month",
           "field_options": "January 2027\nFebruary 2027\nMarch 2027\nApril 2027",
           "width": "50",
           "width_mobile": "100",
-          "required": "true"
+          "required": "true",
+          "previous_button": "",
+          "next_button": "",
+          "file_sizes": "",
+          "file_types": "",
+          "allow_multiple_upload": "",
+          "max_files": "",
+          "acceptance_text": "",
+          "checked_by_default": "",
+          "field_min": "",
+          "field_max": "",
+          "min_date": "",
+          "max_date": "",
+          "use_native_date": "",
+          "use_native_time": ""
          },
          {
-          "_id": "238c782",
+          "_id": "8c37e87",
           "custom_id": "focus",
           "field_type": "select",
           "field_label": "Professional Learning Focus",
           "field_options": "Milestones Preparation\nThe FSI Way Implementation\nFSI Courses Onboarding\nOn-site Coaching\nVirtual Professional Learning",
-          "width": "100",
-          "required": "true"
+          "required": "true",
+          "previous_button": "",
+          "next_button": "",
+          "file_sizes": "",
+          "file_types": "",
+          "allow_multiple_upload": "",
+          "max_files": "",
+          "acceptance_text": "",
+          "checked_by_default": "",
+          "field_min": "",
+          "field_max": "",
+          "min_date": "",
+          "max_date": "",
+          "use_native_date": "",
+          "use_native_time": ""
          }
         ],
         "show_labels": "yes",
-        "input_size": "sm",
         "button_text": "Check Availability & Request Dates",
-        "button_size": "sm",
-        "button_width": "100",
         "selected_button_icon": {
          "value": "fas fa-arrow-right",
          "library": "fa-solid"
@@ -4278,7 +4732,6 @@
         "submit_actions": [
          "email"
         ],
-        "email_subject": "New Professional Learning Request – FSI website",
         "success_message": "Thanks! The FSI team will confirm availability shortly.",
         "column_gap": {
          "unit": "px",
@@ -4332,40 +4785,47 @@
          "button_background_hover_color": "globals/colors?id=fsigold",
          "button_hover_color": "globals/colors?id=fsihead",
          "button_typography_typography": "globals/typography?id=accent"
-        }
+        },
+        "step_next_label": "Next",
+        "step_previous_label": "Previous",
+        "email_content": "[all-fields]",
+        "email_content_2": "[all-fields]",
+        "error_message": "Your submission failed because of an error.",
+        "server_message": "Your submission failed because of a server error.",
+        "invalid_message": "Your submission failed because the form is invalid.",
+        "required_field_message": "This field is required."
        },
        "elements": [],
-       "widgetType": "form"
+       "isInner": false,
+       "widgetType": "form",
+       "elType": "widget"
       },
       {
-       "id": "4656a12",
-       "elType": "widget",
+       "id": "15f96ff7",
        "settings": {
         "editor": "<p style=\"text-align:center;\">Or <a href=\"#waitlist\"><strong>Join the Priority Waitlist</strong></a></p>",
         "__globals__": {
          "text_color": "globals/colors?id=fsihead",
          "typography_typography": "globals/typography?id=fsibdsm"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "text-editor"
+       "isInner": false,
+       "widgetType": "text-editor",
+       "elType": "widget"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "a8457f7",
-   "elType": "container",
+   "id": "6a4edecc",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "column",
     "flex_gap": {
      "column": "32",
@@ -4394,12 +4854,12 @@
     "_element_id": "plans",
     "__globals__": {
      "background_color": "globals/colors?id=fsibggr"
-    }
+    },
+    "_title": "SCHOOL PLANS"
    },
    "elements": [
     {
-     "id": "a8a0f3a",
-     "elType": "container",
+     "id": "7f2754ba",
      "settings": {
       "content_width": "full",
       "flex_direction": "row",
@@ -4423,8 +4883,7 @@
      },
      "elements": [
       {
-       "id": "792ea85",
-       "elType": "container",
+       "id": "4939bec6",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -4461,47 +4920,50 @@
        },
        "elements": [
         {
-         "id": "48d0793",
-         "elType": "widget",
+         "id": "3a4f7db2",
          "settings": {
           "title": "Implementation Plans for Schools &amp; Districts",
-          "header_size": "h2",
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
            "typography_typography": "globals/typography?id=primary"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "heading"
+         "isInner": false,
+         "widgetType": "heading",
+         "elType": "widget"
         },
         {
-         "id": "ad5c3ec",
-         "elType": "widget",
+         "id": "50eba139",
          "settings": {
           "editor": "<p><strong>Flexible</strong> options to fit your goals, scale, and <strong>level</strong> of support—from a single school to a complete district solution.</p>",
           "__globals__": {
            "text_color": "globals/colors?id=text",
            "typography_typography": "globals/typography?id=fsibdsm"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "text-editor"
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "37b783c",
-       "elType": "container",
+       "id": "2c26830c",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
         "flex_gap": {
-         "column": "14",
-         "row": "14",
+         "column": "0",
+         "row": "0",
          "isLinked": true,
          "unit": "px",
-         "size": 14
+         "size": 0
         },
         "background_background": "classic",
         "border_radius": {
@@ -4514,11 +4976,11 @@
         },
         "padding": {
          "unit": "px",
-         "top": "22",
-         "right": "22",
-         "bottom": "24",
-         "left": "22",
-         "isLinked": false
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
         },
         "border_border": "solid",
         "border_width": {
@@ -4553,14 +5015,13 @@
          "sizes": []
         },
         "__globals__": {
-         "background_color": "globals/colors?id=fsiwhit",
+         "background_color": "globals/colors?id=fsiltbl",
          "border_color": "globals/colors?id=fsibord"
         }
        },
        "elements": [
         {
-         "id": "ce35844",
-         "elType": "container",
+         "id": "762aed7b",
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
@@ -4573,24 +5034,34 @@
           },
           "padding": {
            "unit": "px",
-           "top": "0",
-           "right": "0",
+           "top": "5",
+           "right": "20",
+           "bottom": "5",
+           "left": "20",
+           "isLinked": false
+          },
+          "flex_align_items": "center",
+          "background_background": "classic",
+          "__globals__": {
+           "background_color": "globals/colors?id=c309a43"
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
            "bottom": "0",
            "left": "0",
-           "isLinked": true
-          },
-          "flex_align_items": "center"
+           "isLinked": false
+          }
          },
          "elements": [
           {
-           "id": "63ded19",
-           "elType": "widget",
+           "id": "706d88c2",
            "settings": {
             "selected_icon": {
              "value": "fas fa-school",
              "library": "fa-solid"
             },
-            "view": "default",
             "icon_size": {
              "unit": "px",
              "size": 24,
@@ -4601,76 +5072,50 @@
             }
            },
            "elements": [],
-           "widgetType": "icon"
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
           },
           {
-           "id": "31edbac",
-           "elType": "widget",
+           "id": "394fb93a",
            "settings": {
             "title": "School Essential",
             "header_size": "h3",
             "__globals__": {
              "title_color": "globals/colors?id=fsihead",
              "typography_typography": "globals/typography?id=fsih3cd"
-            }
+            },
+            "eael_vto_writing_gradient_color_repeater": []
            },
            "elements": [],
-           "widgetType": "heading"
+           "isInner": false,
+           "widgetType": "heading",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         },
         {
-         "id": "f26dd23",
-         "elType": "widget",
+         "id": "6ddf97eb",
          "settings": {
           "icon_list": [
            {
-            "_id": "67f2ea6",
-            "text": "FSI Courses (selected grades)",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
-           },
-           {
-            "_id": "3817d46",
-            "text": "The FSI Way classroom resources",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
-           },
-           {
             "_id": "bbcc74c",
-            "text": "Implementation launch support",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
+            "text": "FSI Courses (selected grades)"
+           },
+           {
+            "_id": "f26dd23",
+            "text": "The FSI Way classroom resources"
+           },
+           {
+            "_id": "37b783c",
+            "text": "Implementation launch support"
            }
           ],
           "space_between": {
            "unit": "px",
-           "size": 6,
+           "size": 0,
            "sizes": []
           },
           "icon_size": {
@@ -4688,26 +5133,36 @@
            "icon_color": "globals/colors?id=primary",
            "text_color": "globals/colors?id=fsihead",
            "icon_typography_typography": "globals/typography?id=fsibdsm"
+          },
+          "_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "20",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": true
           }
          },
          "elements": [],
-         "widgetType": "icon-list"
+         "isInner": false,
+         "widgetType": "icon-list",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "ffa52d6",
-       "elType": "container",
+       "id": "6edabf49",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
         "flex_gap": {
-         "column": "14",
-         "row": "14",
+         "column": "0",
+         "row": "0",
          "isLinked": true,
          "unit": "px",
-         "size": 14
+         "size": 0
         },
         "background_background": "classic",
         "border_radius": {
@@ -4720,11 +5175,11 @@
         },
         "padding": {
          "unit": "px",
-         "top": "22",
-         "right": "22",
-         "bottom": "24",
-         "left": "22",
-         "isLinked": false
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
         },
         "border_border": "solid",
         "border_width": {
@@ -4759,23 +5214,22 @@
          "sizes": []
         },
         "__globals__": {
-         "background_color": "globals/colors?id=fsiltgd",
+         "background_color": "globals/colors?id=fsiltbl",
          "border_color": "globals/colors?id=fsibord"
         }
        },
        "elements": [
         {
-         "id": "47f979a",
-         "elType": "widget",
+         "id": "5fb3ff4e",
          "settings": {
           "title": "Most Popular",
           "header_size": "span",
           "_background_background": "classic",
           "_padding": {
            "unit": "px",
-           "top": "4",
+           "top": "0",
            "right": "10",
-           "bottom": "4",
+           "bottom": "0",
            "left": "10",
            "isLinked": false
           },
@@ -4802,16 +5256,43 @@
           "_z_index": 2,
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
-           "typography_typography": "globals/typography?id=fsicapt",
+           "typography_typography": "",
            "_background_color": "globals/colors?id=secondary"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": [],
+          "typography_typography": "custom",
+          "typography_font_family": "Inter",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12,
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "px",
+           "size": 12,
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "px",
+           "size": 12,
+           "sizes": []
+          },
+          "typography_font_weight": "600",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.4,
+           "sizes": []
+          },
+          "title_color": "#0C1A3A",
+          "_background_color": "#F9BE1A"
          },
          "elements": [],
-         "widgetType": "heading"
+         "isInner": false,
+         "widgetType": "heading",
+         "elType": "widget"
         },
         {
-         "id": "eefd16a",
-         "elType": "container",
+         "id": "1b74a056",
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
@@ -4824,24 +5305,30 @@
           },
           "padding": {
            "unit": "px",
-           "top": "0",
+           "top": "5",
            "right": "0",
+           "bottom": "5",
+           "left": "20",
+           "isLinked": false
+          },
+          "flex_align_items": "center",
+          "background_background": "classic",
+          "__globals__": {
+           "background_color": "globals/colors?id=fsiltgd"
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
            "bottom": "0",
            "left": "0",
-           "isLinked": true
-          },
-          "flex_align_items": "center"
+           "isLinked": false
+          }
          },
          "elements": [
           {
-           "id": "7412d93",
-           "elType": "widget",
+           "id": "5bb964fa",
            "settings": {
-            "selected_icon": {
-             "value": "fas fa-star",
-             "library": "fa-solid"
-            },
-            "view": "default",
             "icon_size": {
              "unit": "px",
              "size": 24,
@@ -4852,90 +5339,54 @@
             }
            },
            "elements": [],
-           "widgetType": "icon"
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
           },
           {
-           "id": "c730e50",
-           "elType": "widget",
+           "id": "d94380e",
            "settings": {
             "title": "School Plus",
             "header_size": "h3",
             "__globals__": {
              "title_color": "globals/colors?id=fsihead",
              "typography_typography": "globals/typography?id=fsih3cd"
-            }
+            },
+            "eael_vto_writing_gradient_color_repeater": []
            },
            "elements": [],
-           "widgetType": "heading"
+           "isInner": false,
+           "widgetType": "heading",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         },
         {
-         "id": "5db606e",
-         "elType": "widget",
+         "id": "7cbb435c",
          "settings": {
           "icon_list": [
            {
-            "_id": "45fc944",
-            "text": "FSI Courses (all science grades)",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
-           },
-           {
-            "_id": "34caeb1",
-            "text": "The FSI Way boards and materials",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
-           },
-           {
             "_id": "5c74bbf",
-            "text": "Professional learning & coaching",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
+            "text": "FSI Courses (all science grades)"
            },
            {
             "_id": "e53bdd6",
-            "text": "Assessment preparation support",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
+            "text": "The FSI Way boards and materials"
+           },
+           {
+            "_id": "5db606e",
+            "text": "Professional learning & coaching"
+           },
+           {
+            "_id": "47f979a",
+            "text": "Assessment preparation support"
            }
           ],
           "space_between": {
            "unit": "px",
-           "size": 6,
+           "size": 0,
            "sizes": []
           },
           "icon_size": {
@@ -4953,26 +5404,36 @@
            "icon_color": "globals/colors?id=primary",
            "text_color": "globals/colors?id=fsihead",
            "icon_typography_typography": "globals/typography?id=fsibdsm"
+          },
+          "_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "20",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": true
           }
          },
          "elements": [],
-         "widgetType": "icon-list"
+         "isInner": false,
+         "widgetType": "icon-list",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "63718a9",
-       "elType": "container",
+       "id": "373e4f97",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
         "flex_gap": {
-         "column": "14",
-         "row": "14",
+         "column": "0",
+         "row": "0",
          "isLinked": true,
          "unit": "px",
-         "size": 14
+         "size": 0
         },
         "background_background": "classic",
         "border_radius": {
@@ -4985,11 +5446,11 @@
         },
         "padding": {
          "unit": "px",
-         "top": "22",
-         "right": "22",
-         "bottom": "24",
-         "left": "22",
-         "isLinked": false
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
         },
         "border_border": "solid",
         "border_width": {
@@ -5024,14 +5485,13 @@
          "sizes": []
         },
         "__globals__": {
-         "background_color": "globals/colors?id=fsiwhit",
+         "background_color": "globals/colors?id=fsiltbl",
          "border_color": "globals/colors?id=fsibord"
         }
        },
        "elements": [
         {
-         "id": "d16de1e",
-         "elType": "container",
+         "id": "316cf6eb",
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
@@ -5044,24 +5504,34 @@
           },
           "padding": {
            "unit": "px",
-           "top": "0",
-           "right": "0",
+           "top": "5",
+           "right": "20",
+           "bottom": "5",
+           "left": "20",
+           "isLinked": false
+          },
+          "flex_align_items": "center",
+          "background_background": "classic",
+          "__globals__": {
+           "background_color": "globals/colors?id=c309a43"
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "10",
+           "right": "10",
            "bottom": "0",
            "left": "0",
-           "isLinked": true
-          },
-          "flex_align_items": "center"
+           "isLinked": false
+          }
          },
          "elements": [
           {
-           "id": "0577d34",
-           "elType": "widget",
+           "id": "2b8fd986",
            "settings": {
             "selected_icon": {
              "value": "fas fa-users",
              "library": "fa-solid"
             },
-            "view": "default",
             "icon_size": {
              "unit": "px",
              "size": 24,
@@ -5072,90 +5542,54 @@
             }
            },
            "elements": [],
-           "widgetType": "icon"
+           "isInner": false,
+           "widgetType": "icon",
+           "elType": "widget"
           },
           {
-           "id": "5b928b7",
-           "elType": "widget",
+           "id": "19374526",
            "settings": {
             "title": "District Partnership",
             "header_size": "h3",
             "__globals__": {
              "title_color": "globals/colors?id=fsihead",
              "typography_typography": "globals/typography?id=fsih3cd"
-            }
+            },
+            "eael_vto_writing_gradient_color_repeater": []
            },
            "elements": [],
-           "widgetType": "heading"
+           "isInner": false,
+           "widgetType": "heading",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         },
         {
-         "id": "93fb026",
-         "elType": "widget",
+         "id": "74d288f2",
          "settings": {
           "icon_list": [
            {
-            "_id": "01c1c86",
-            "text": "Districtwide implementation plan",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
-           },
-           {
-            "_id": "af75f5b",
-            "text": "Full access to FSI solutions",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
-           },
-           {
             "_id": "7f13400",
-            "text": "Ongoing professional learning",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
+            "text": "Districtwide implementation plan"
            },
            {
             "_id": "5675eab",
-            "text": "Data reviews and continuous improvement",
-            "selected_icon": {
-             "value": "fas fa-check",
-             "library": "fa-solid"
-            },
-            "link": {
-             "url": "",
-             "is_external": "",
-             "nofollow": "",
-             "custom_attributes": ""
-            }
+            "text": "Full access to FSI solutions"
+           },
+           {
+            "_id": "93fb026",
+            "text": "Ongoing professional learning"
+           },
+           {
+            "_id": "63718a9",
+            "text": "Data reviews and continuous improvement"
            }
           ],
           "space_between": {
            "unit": "px",
-           "size": 6,
+           "size": 0,
            "sizes": []
           },
           "icon_size": {
@@ -5173,30 +5607,36 @@
            "icon_color": "globals/colors?id=primary",
            "text_color": "globals/colors?id=fsihead",
            "icon_typography_typography": "globals/typography?id=fsibdsm"
+          },
+          "_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "20",
+           "bottom": "20",
+           "left": "20",
+           "isLinked": true
           }
          },
          "elements": [],
-         "widgetType": "icon-list"
+         "isInner": false,
+         "widgetType": "icon-list",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "67dd91c",
-   "elType": "container",
+   "id": "f0689f9",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "column",
     "flex_gap": {
      "column": "32",
@@ -5229,8 +5669,7 @@
    },
    "elements": [
     {
-     "id": "8da2819",
-     "elType": "container",
+     "id": "7b171f98",
      "settings": {
       "content_width": "full",
       "flex_direction": "row",
@@ -5254,8 +5693,7 @@
      },
      "elements": [
       {
-       "id": "a12db82",
-       "elType": "container",
+       "id": "27330fa7",
        "settings": {
         "content_width": "full",
         "flex_direction": "column",
@@ -5292,35 +5730,37 @@
        },
        "elements": [
         {
-         "id": "04c3831",
-         "elType": "widget",
+         "id": "583e0c9",
          "settings": {
           "title": "Explore FSI Publishing",
-          "header_size": "h2",
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
            "typography_typography": "globals/typography?id=primary"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "heading"
+         "isInner": false,
+         "widgetType": "heading",
+         "elType": "widget"
         },
         {
-         "id": "be4489c",
-         "elType": "widget",
+         "id": "7230315e",
          "settings": {
           "editor": "<p>Classroom-tested resources to build science understanding, reinforce learning, and prepare for Georgia assessments.</p>",
           "__globals__": {
            "text_color": "globals/colors?id=text",
            "typography_typography": "globals/typography?id=fsibdsm"
-          }
+          },
+          "eael_vto_writing_gradient_color_repeater": []
          },
          "elements": [],
-         "widgetType": "text-editor"
+         "isInner": false,
+         "widgetType": "text-editor",
+         "elType": "widget"
         },
         {
-         "id": "23f58c3",
-         "elType": "container",
+         "id": "283579a8",
          "settings": {
           "content_width": "full",
           "flex_direction": "row",
@@ -5342,8 +5782,7 @@
          },
          "elements": [
           {
-           "id": "e0e2909",
-           "elType": "widget",
+           "id": "600a400e",
            "settings": {
             "text": "Shop All Products",
             "link": {
@@ -5352,7 +5791,6 @@
              "nofollow": "",
              "custom_attributes": ""
             },
-            "size": "sm",
             "icon_align": "right",
             "icon_indent": {
              "unit": "px",
@@ -5379,8 +5817,6 @@
              "value": "fas fa-arrow-right",
              "library": "fa-solid"
             },
-            "background_background": "classic",
-            "button_background_hover_background": "classic",
             "__globals__": {
              "typography_typography": "globals/typography?id=accent",
              "button_text_color": "globals/colors?id=fsihead",
@@ -5390,17 +5826,20 @@
             }
            },
            "elements": [],
-           "widgetType": "button"
+           "isInner": false,
+           "widgetType": "button",
+           "elType": "widget"
           }
          ],
-         "isInner": true
+         "isInner": true,
+         "elType": "container"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       },
       {
-       "id": "c617ec6",
-       "elType": "container",
+       "id": "7b5cc938",
        "settings": {
         "content_width": "full",
         "flex_direction": "row",
@@ -5439,12 +5878,10 @@
        },
        "elements": [
         {
-         "id": "3297c96",
-         "elType": "widget",
+         "id": "4a7101a9",
          "settings": {
           "title_text": "Science Workbooks",
           "description_text": "(Grades 5, 8, Biology)",
-          "title_size": "h3",
           "image_space": {
            "unit": "px",
            "size": 10,
@@ -5487,21 +5924,34 @@
           },
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
-           "description_color": "globals/colors?id=fsimute",
+           "description_color": "globals/colors?id=text",
            "title_typography_typography": "globals/typography?id=fsih4sm",
            "description_typography_typography": "globals/typography?id=fsicapt"
-          }
+          },
+          "image": {
+           "id": 77573,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-caleboquendo-34708269.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "image_height": {
+           "unit": "px",
+           "size": 150,
+           "sizes": []
+          },
+          "image_object_fit": "cover"
          },
          "elements": [],
-         "widgetType": "image-box"
+         "isInner": false,
+         "widgetType": "image-box",
+         "elType": "widget"
         },
         {
-         "id": "b327e56",
-         "elType": "widget",
+         "id": "237fda00",
          "settings": {
           "title_text": "The FSI Way Kits",
           "description_text": "(Hands-On Learning Boards)",
-          "title_size": "h3",
           "image_space": {
            "unit": "px",
            "size": 10,
@@ -5544,21 +5994,34 @@
           },
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
-           "description_color": "globals/colors?id=fsimute",
+           "description_color": "globals/colors?id=text",
            "title_typography_typography": "globals/typography?id=fsih4sm",
            "description_typography_typography": "globals/typography?id=fsicapt"
-          }
+          },
+          "image": {
+           "id": 77571,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-walls-io-440716388-15543114.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "image_height": {
+           "unit": "px",
+           "size": 150,
+           "sizes": []
+          },
+          "image_object_fit": "cover"
          },
          "elements": [],
-         "widgetType": "image-box"
+         "isInner": false,
+         "widgetType": "image-box",
+         "elType": "widget"
         },
         {
-         "id": "3c71aa2",
-         "elType": "widget",
+         "id": "660445a3",
          "settings": {
           "title_text": "Review &amp; Test Prep",
           "description_text": "(Milestones &amp; EOC)",
-          "title_size": "h3",
           "image_space": {
            "unit": "px",
            "size": 10,
@@ -5601,21 +6064,34 @@
           },
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
-           "description_color": "globals/colors?id=fsimute",
+           "description_color": "globals/colors?id=text",
            "title_typography_typography": "globals/typography?id=fsih4sm",
            "description_typography_typography": "globals/typography?id=fsicapt"
-          }
+          },
+          "image": {
+           "id": 77570,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/pexels-shkrabaanthony-6266990.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "image_height": {
+           "unit": "px",
+           "size": 150,
+           "sizes": []
+          },
+          "image_object_fit": "cover"
          },
          "elements": [],
-         "widgetType": "image-box"
+         "isInner": false,
+         "widgetType": "image-box",
+         "elType": "widget"
         },
         {
-         "id": "3732130",
-         "elType": "widget",
+         "id": "69dad609",
          "settings": {
           "title_text": "Science Games",
           "description_text": "(Engaging Practice)",
-          "title_size": "h3",
           "image_space": {
            "unit": "px",
            "size": 10,
@@ -5658,33 +6134,44 @@
           },
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
-           "description_color": "globals/colors?id=fsimute",
+           "description_color": "globals/colors?id=text",
            "title_typography_typography": "globals/typography?id=fsih4sm",
            "description_typography_typography": "globals/typography?id=fsicapt"
-          }
+          },
+          "image": {
+           "id": 1186,
+           "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/04/group-seniors-park_1_20.jpg",
+           "alt": "",
+           "source": "library",
+           "size": ""
+          },
+          "image_height": {
+           "unit": "px",
+           "size": 150,
+           "sizes": []
+          },
+          "image_object_fit": "cover"
          },
          "elements": [],
-         "widgetType": "image-box"
+         "isInner": false,
+         "widgetType": "image-box",
+         "elType": "widget"
         }
        ],
-       "isInner": true
+       "isInner": true,
+       "elType": "container"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   },
   {
-   "id": "b9e83ea",
-   "elType": "container",
+   "id": "4dc3ec92",
    "settings": {
-    "content_width": "boxed",
-    "boxed_width": {
-     "unit": "px",
-     "size": 1240,
-     "sizes": []
-    },
     "flex_direction": "row",
     "flex_wrap_tablet": "wrap",
     "flex_align_items": "center",
@@ -5711,10 +6198,8 @@
      "left": "16",
      "isLinked": false
     },
-    "background_background": "gradient",
-    "background_color": "#0A3D80",
+    "background_background": "classic",
     "background_color_b": "#0068BE",
-    "background_gradient_type": "linear",
     "background_gradient_angle": {
      "unit": "deg",
      "size": 90,
@@ -5722,14 +6207,43 @@
     },
     "_element_id": "request-demo",
     "__globals__": {
-     "background_color": "globals/colors?id=primary",
-     "background_color_b": "globals/colors?id=accent"
+     "background_color": "",
+     "background_color_b": "globals/colors?id=accent",
+     "background_overlay_color": "",
+     "background_overlay_color_b": "globals/colors?id=primary"
+    },
+    "background_image": {
+     "url": "https://fsi-interactives.codepixelz.tech/wp-content/uploads/2026/11/dna-300x232.png",
+     "id": 77650,
+     "size": "medium",
+     "alt": "",
+     "source": "library"
+    },
+    "background_position": "center left",
+    "background_repeat": "no-repeat",
+    "background_size": "contain",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "#004AAD00",
+    "background_overlay_color_b": "#0A3D80",
+    "background_overlay_color_b_stop": {
+     "unit": "%",
+     "size": 10,
+     "sizes": []
+    },
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90,
+     "sizes": []
+    },
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 1,
+     "sizes": []
     }
    },
    "elements": [
     {
-     "id": "a207909",
-     "elType": "container",
+     "id": "788afac6",
      "settings": {
       "content_width": "full",
       "flex_direction": "column",
@@ -5766,38 +6280,41 @@
      },
      "elements": [
       {
-       "id": "24c8365",
-       "elType": "widget",
+       "id": "b9dbf3c",
        "settings": {
         "title": "Ready to Transform Science in Your Schools?",
-        "header_size": "h2",
         "__globals__": {
          "title_color": "globals/colors?id=fsiwhit",
          "typography_typography": "globals/typography?id=primary"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "heading"
+       "isInner": false,
+       "widgetType": "heading",
+       "elType": "widget"
       },
       {
-       "id": "0f9a713",
-       "elType": "widget",
+       "id": "2bea7db2",
        "settings": {
         "editor": "<p>Request a district or school demo, explore our solutions, or get in touch with the FSI team.</p>",
         "__globals__": {
          "text_color": "globals/colors?id=fsiwhit",
          "typography_typography": "globals/typography?id=text"
-        }
+        },
+        "eael_vto_writing_gradient_color_repeater": []
        },
        "elements": [],
-       "widgetType": "text-editor"
+       "isInner": false,
+       "widgetType": "text-editor",
+       "elType": "widget"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     },
     {
-     "id": "372a28e",
-     "elType": "container",
+     "id": "6a49478c",
      "settings": {
       "content_width": "full",
       "flex_direction": "row",
@@ -5837,8 +6354,7 @@
      },
      "elements": [
       {
-       "id": "f66a122",
-       "elType": "widget",
+       "id": "389e65e4",
        "settings": {
         "text": "Request a Demo",
         "link": {
@@ -5875,8 +6391,6 @@
          "library": "fa-regular"
         },
         "_css_classes": "fsi-btn-arrow",
-        "background_background": "classic",
-        "button_background_hover_background": "classic",
         "__globals__": {
          "typography_typography": "globals/typography?id=accent",
          "button_text_color": "globals/colors?id=fsihead",
@@ -5886,11 +6400,12 @@
         }
        },
        "elements": [],
-       "widgetType": "button"
+       "isInner": false,
+       "widgetType": "button",
+       "elType": "widget"
       },
       {
-       "id": "92d9a88",
-       "elType": "widget",
+       "id": "4cd06a72",
        "settings": {
         "text": "Contact FSI",
         "link": {
@@ -5926,9 +6441,7 @@
          "value": "far fa-envelope",
          "library": "fa-regular"
         },
-        "background_background": "classic",
         "background_color": "rgba(255,255,255,0)",
-        "button_background_hover_background": "classic",
         "border_border": "solid",
         "border_width": {
          "unit": "px",
@@ -5947,18 +6460,21 @@
         }
        },
        "elements": [],
-       "widgetType": "button"
+       "isInner": false,
+       "widgetType": "button",
+       "elType": "widget"
       }
      ],
-     "isInner": true
+     "isInner": true,
+     "elType": "container"
     }
    ],
-   "isInner": false
+   "isInner": false,
+   "elType": "container"
   }
  ],
  "page_settings": {
-  "hide_title": "yes",
-  "template": "elementor_header_footer"
+  "eael_ext_toc_title": "Table of Contents"
  },
  "version": "0.4",
  "title": "FSI – Homepage",

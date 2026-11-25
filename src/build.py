@@ -1073,7 +1073,7 @@ def main():
     # Templates
     write_json("fsi-header.json", template("FSI – Header", "header", build_header()))
     write_json("fsi-footer.json", template("FSI – Footer", "footer", build_footer()))
-    write_json("fsi-homepage.json", template("FSI – Homepage", "page", build_home(),
+    write_json("src/fsi-homepage.generated.json", template("FSI – Homepage", "page", build_home(),
                                              {"hide_title": "yes", "template": "elementor_header_footer"}))
 
     # Kit (site settings only)
