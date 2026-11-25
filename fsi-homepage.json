@@ -785,7 +785,7 @@
    "isInner": false
   },
   {
-   "id": "55d0c57",
+   "id": "811008b",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -825,7 +825,7 @@
    },
    "elements": [
     {
-     "id": "811008b",
+     "id": "23cc390",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -850,7 +850,7 @@
      },
      "elements": [
       {
-       "id": "410915b",
+       "id": "875b0b2",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -893,6 +893,7 @@
          "settings": {
           "title": "Choose Your Path with FSI",
           "header_size": "h2",
+          "_css_classes": "fsi-swoosh",
           "__globals__": {
            "title_color": "globals/colors?id=fsihead",
            "typography_typography": "globals/typography?id=primary"
@@ -900,41 +901,12 @@
          },
          "elements": [],
          "widgetType": "heading"
-        },
-        {
-         "id": "875b0b2",
-         "elType": "widget",
-         "settings": {
-          "style": "solid",
-          "weight": {
-           "unit": "px",
-           "size": 4,
-           "sizes": []
-          },
-          "width": {
-           "unit": "px",
-           "size": 80,
-           "sizes": []
-          },
-          "align": "left",
-          "gap": {
-           "unit": "px",
-           "size": 2,
-           "sizes": []
-          },
-          "_css_classes": "fsi-underline",
-          "__globals__": {
-           "color": "globals/colors?id=secondary"
-          }
-         },
-         "elements": [],
-         "widgetType": "divider"
         }
        ],
        "isInner": true
       },
       {
-       "id": "bdfaef4",
+       "id": "8c7d743",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -993,7 +965,7 @@
        },
        "elements": [
         {
-         "id": "d429fc5",
+         "id": "410915b",
          "elType": "widget",
          "settings": {
           "selected_icon": {
@@ -1015,7 +987,7 @@
          "widgetType": "icon"
         },
         {
-         "id": "7331dab",
+         "id": "29ea3a7",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -1039,7 +1011,7 @@
          },
          "elements": [
           {
-           "id": "a4ea393",
+           "id": "d429fc5",
            "elType": "widget",
            "settings": {
             "title": "District Leaders",
@@ -1053,7 +1025,7 @@
            "widgetType": "heading"
           },
           {
-           "id": "29ea3a7",
+           "id": "a4ea393",
            "elType": "widget",
            "settings": {
             "editor": "<p>Explore a districtwide solution to improve science achievement.</p>",
@@ -1069,7 +1041,7 @@
          "isInner": true
         },
         {
-         "id": "8c7d743",
+         "id": "7331dab",
          "elType": "widget",
          "settings": {
           "selected_icon": {
@@ -1093,7 +1065,7 @@
        "isInner": true
       },
       {
-       "id": "ac59157",
+       "id": "96f119b",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -1152,7 +1124,7 @@
        },
        "elements": [
         {
-         "id": "52a5d42",
+         "id": "bdfaef4",
          "elType": "widget",
          "settings": {
           "selected_icon": {
@@ -1174,7 +1146,7 @@
          "widgetType": "icon"
         },
         {
-         "id": "4260ce8",
+         "id": "ca96fd7",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -1198,7 +1170,7 @@
          },
          "elements": [
           {
-           "id": "3a569ee",
+           "id": "52a5d42",
            "elType": "widget",
            "settings": {
             "title": "School Administrators",
@@ -1212,7 +1184,7 @@
            "widgetType": "heading"
           },
           {
-           "id": "ca96fd7",
+           "id": "3a569ee",
            "elType": "widget",
            "settings": {
             "editor": "<p>Plan implementation and support for your school.</p>",
@@ -1228,7 +1200,7 @@
          "isInner": true
         },
         {
-         "id": "96f119b",
+         "id": "4260ce8",
          "elType": "widget",
          "settings": {
           "selected_icon": {
@@ -1252,7 +1224,7 @@
        "isInner": true
       },
       {
-       "id": "23cc390",
+       "id": "9354d0e",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -1311,7 +1283,7 @@
        },
        "elements": [
         {
-         "id": "43bb389",
+         "id": "ac59157",
          "elType": "widget",
          "settings": {
           "selected_icon": {
@@ -1333,7 +1305,7 @@
          "widgetType": "icon"
         },
         {
-         "id": "ce1f394",
+         "id": "5d23d1f",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -1357,7 +1329,7 @@
          },
          "elements": [
           {
-           "id": "44e767f",
+           "id": "43bb389",
            "elType": "widget",
            "settings": {
             "title": "Teachers",
@@ -1371,7 +1343,7 @@
            "widgetType": "heading"
           },
           {
-           "id": "5d23d1f",
+           "id": "44e767f",
            "elType": "widget",
            "settings": {
             "editor": "<p>Experience an FSI science lesson and see it in action.</p>",
@@ -1387,7 +1359,7 @@
          "isInner": true
         },
         {
-         "id": "9354d0e",
+         "id": "ce1f394",
          "elType": "widget",
          "settings": {
           "selected_icon": {
@@ -1417,7 +1389,7 @@
    "isInner": false
   },
   {
-   "id": "9806760",
+   "id": "2aa60f3",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -1457,7 +1429,7 @@
    },
    "elements": [
     {
-     "id": "26e144c",
+     "id": "4d1dd7d",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -1481,7 +1453,7 @@
      },
      "elements": [
       {
-       "id": "07c1837",
+       "id": "55d0c57",
        "elType": "widget",
        "settings": {
         "title": "The Complete FSI Solution",
@@ -1496,12 +1468,13 @@
        "widgetType": "heading"
       },
       {
-       "id": "4d1dd7d",
+       "id": "07c1837",
        "elType": "widget",
        "settings": {
         "title": "A Connected System for Science Success",
         "header_size": "h2",
         "align": "center",
+        "_css_classes": "fsi-swoosh fsi-swoosh--center",
         "__globals__": {
          "title_color": "globals/colors?id=fsihead",
          "typography_typography": "globals/typography?id=primary"
@@ -1509,41 +1482,12 @@
        },
        "elements": [],
        "widgetType": "heading"
-      },
-      {
-       "id": "0b4152c",
-       "elType": "widget",
-       "settings": {
-        "style": "solid",
-        "weight": {
-         "unit": "px",
-         "size": 4,
-         "sizes": []
-        },
-        "width": {
-         "unit": "px",
-         "size": 90,
-         "sizes": []
-        },
-        "align": "center",
-        "gap": {
-         "unit": "px",
-         "size": 2,
-         "sizes": []
-        },
-        "_css_classes": "fsi-underline",
-        "__globals__": {
-         "color": "globals/colors?id=secondary"
-        }
-       },
-       "elements": [],
-       "widgetType": "divider"
       }
      ],
      "isInner": true
     },
     {
-     "id": "e537eae",
+     "id": "6a9bb2c",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -1567,7 +1511,7 @@
      },
      "elements": [
       {
-       "id": "66de2e9",
+       "id": "77832f1",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -1644,7 +1588,7 @@
        },
        "elements": [
         {
-         "id": "ec433ae",
+         "id": "0b4152c",
          "elType": "widget",
          "settings": {
           "image_size": "full",
@@ -1672,7 +1616,7 @@
          "widgetType": "image"
         },
         {
-         "id": "c867119",
+         "id": "c78165d",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -1695,7 +1639,7 @@
          },
          "elements": [
           {
-           "id": "48ba29b",
+           "id": "06f3179",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -1719,7 +1663,7 @@
            },
            "elements": [
             {
-             "id": "06f3179",
+             "id": "26e144c",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -1740,7 +1684,7 @@
              "widgetType": "icon"
             },
             {
-             "id": "f8223c0",
+             "id": "ec433ae",
              "elType": "widget",
              "settings": {
               "title": "FSI Courses",
@@ -1757,7 +1701,7 @@
            "isInner": true
           },
           {
-           "id": "77832f1",
+           "id": "8458320",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -1781,7 +1725,7 @@
            },
            "elements": [
             {
-             "id": "8458320",
+             "id": "f8223c0",
              "elType": "widget",
              "settings": {
               "editor": "<p>Engaging digital lessons, interactive activities, assessments, and progress dashboards.</p>",
@@ -1795,7 +1739,7 @@
              "widgetType": "text-editor"
             },
             {
-             "id": "c78165d",
+             "id": "48ba29b",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -1825,7 +1769,7 @@
        "isInner": true
       },
       {
-       "id": "510adc2",
+       "id": "6d7af23",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -1902,7 +1846,7 @@
        },
        "elements": [
         {
-         "id": "7aa1caa",
+         "id": "c867119",
          "elType": "widget",
          "settings": {
           "image_size": "full",
@@ -1930,7 +1874,7 @@
          "widgetType": "image"
         },
         {
-         "id": "35aa850",
+         "id": "a7ffb08",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -1953,7 +1897,7 @@
          },
          "elements": [
           {
-           "id": "9bbc068",
+           "id": "673940a",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -1977,7 +1921,7 @@
            },
            "elements": [
             {
-             "id": "673940a",
+             "id": "66de2e9",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -1998,7 +1942,7 @@
              "widgetType": "icon"
             },
             {
-             "id": "bcc3323",
+             "id": "7aa1caa",
              "elType": "widget",
              "settings": {
               "title": "The FSI Way Boards",
@@ -2015,7 +1959,7 @@
            "isInner": true
           },
           {
-           "id": "6d7af23",
+           "id": "83f11b2",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -2039,7 +1983,7 @@
            },
            "elements": [
             {
-             "id": "83f11b2",
+             "id": "bcc3323",
              "elType": "widget",
              "settings": {
               "editor": "<p>Hands-on, reusable learning systems for labeling, sorting, CER, and scientific modeling.</p>",
@@ -2053,7 +1997,7 @@
              "widgetType": "text-editor"
             },
             {
-             "id": "a7ffb08",
+             "id": "9bbc068",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -2083,7 +2027,7 @@
        "isInner": true
       },
       {
-       "id": "d81d3a3",
+       "id": "3313f3f",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -2160,7 +2104,7 @@
        },
        "elements": [
         {
-         "id": "dd71029",
+         "id": "35aa850",
          "elType": "widget",
          "settings": {
           "image_size": "full",
@@ -2188,7 +2132,7 @@
          "widgetType": "image"
         },
         {
-         "id": "d4e9fa6",
+         "id": "1fa0577",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -2211,7 +2155,7 @@
          },
          "elements": [
           {
-           "id": "d9a3ce9",
+           "id": "312d1e5",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -2235,7 +2179,7 @@
            },
            "elements": [
             {
-             "id": "312d1e5",
+             "id": "510adc2",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -2256,7 +2200,7 @@
              "widgetType": "icon"
             },
             {
-             "id": "cbc1267",
+             "id": "dd71029",
              "elType": "widget",
              "settings": {
               "title": "FSI Professional Learning",
@@ -2273,7 +2217,7 @@
            "isInner": true
           },
           {
-           "id": "3313f3f",
+           "id": "2e2677a",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -2297,7 +2241,7 @@
            },
            "elements": [
             {
-             "id": "2e2677a",
+             "id": "cbc1267",
              "elType": "widget",
              "settings": {
               "editor": "<p>Job-embedded coaching, demonstration lessons, and implementation support for lasting impact.</p>",
@@ -2311,7 +2255,7 @@
              "widgetType": "text-editor"
             },
             {
-             "id": "1fa0577",
+             "id": "d9a3ce9",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -2341,7 +2285,7 @@
        "isInner": true
       },
       {
-       "id": "2aa60f3",
+       "id": "138b0ed",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -2418,7 +2362,7 @@
        },
        "elements": [
         {
-         "id": "7dcb161",
+         "id": "d4e9fa6",
          "elType": "widget",
          "settings": {
           "image_size": "full",
@@ -2446,7 +2390,7 @@
          "widgetType": "image"
         },
         {
-         "id": "6a9bb2c",
+         "id": "e012038",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -2469,7 +2413,7 @@
          },
          "elements": [
           {
-           "id": "317bbb1",
+           "id": "a43641f",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -2493,7 +2437,7 @@
            },
            "elements": [
             {
-             "id": "a43641f",
+             "id": "d81d3a3",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -2514,7 +2458,7 @@
              "widgetType": "icon"
             },
             {
-             "id": "65ae2ff",
+             "id": "7dcb161",
              "elType": "widget",
              "settings": {
               "title": "FSI Publishing",
@@ -2531,7 +2475,7 @@
            "isInner": true
           },
           {
-           "id": "138b0ed",
+           "id": "bda40df",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -2555,7 +2499,7 @@
            },
            "elements": [
             {
-             "id": "bda40df",
+             "id": "65ae2ff",
              "elType": "widget",
              "settings": {
               "editor": "<p>Workbooks, games, classroom kits, and assessment-preparation products for Georgia science.</p>",
@@ -2569,7 +2513,7 @@
              "widgetType": "text-editor"
             },
             {
-             "id": "e012038",
+             "id": "317bbb1",
              "elType": "widget",
              "settings": {
               "selected_icon": {
@@ -2605,7 +2549,7 @@
    "isInner": false
   },
   {
-   "id": "16df7df",
+   "id": "16cb6ae",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -2645,7 +2589,7 @@
    },
    "elements": [
     {
-     "id": "0223878",
+     "id": "9545c46",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -2670,7 +2614,7 @@
      },
      "elements": [
       {
-       "id": "083b531",
+       "id": "1bfc22e",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -2730,7 +2674,7 @@
        },
        "elements": [
         {
-         "id": "7cefd5c",
+         "id": "6e5deaa",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -2768,7 +2712,7 @@
          },
          "elements": [
           {
-           "id": "ef2cd05",
+           "id": "e537eae",
            "elType": "widget",
            "settings": {
             "title": "Experience an FSI Interactive Lesson",
@@ -2782,7 +2726,7 @@
            "widgetType": "heading"
           },
           {
-           "id": "6e5deaa",
+           "id": "9806760",
            "elType": "widget",
            "settings": {
             "editor": "<p>See how our interactive content builds understanding, engages students, and prepares them for Georgia Milestones.</p>",
@@ -2795,7 +2739,7 @@
            "widgetType": "text-editor"
           },
           {
-           "id": "6385d76",
+           "id": "ef2cd05",
            "elType": "widget",
            "settings": {
             "text": "Try a Sample Interactive",
@@ -2849,7 +2793,7 @@
          "isInner": true
         },
         {
-         "id": "7614c6a",
+         "id": "7cefd5c",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -2888,7 +2832,7 @@
          },
          "elements": [
           {
-           "id": "1bfc22e",
+           "id": "6385d76",
            "elType": "widget",
            "settings": {
             "image_size": "full",
@@ -2916,7 +2860,7 @@
        "isInner": true
       },
       {
-       "id": "16cb6ae",
+       "id": "536c62a",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -2984,7 +2928,7 @@
        },
        "elements": [
         {
-         "id": "a2acfe1",
+         "id": "f30609b",
          "elType": "widget",
          "settings": {
           "title": "Proven Results in Georgia",
@@ -2998,7 +2942,7 @@
          "widgetType": "heading"
         },
         {
-         "id": "536c62a",
+         "id": "801ea39",
          "elType": "widget",
          "settings": {
           "editor": "<p>FSI schools are seeing measurable gains in science achievement.</p>",
@@ -3011,7 +2955,7 @@
          "widgetType": "text-editor"
         },
         {
-         "id": "9545c46",
+         "id": "a2acfe1",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -3035,7 +2979,7 @@
          },
          "elements": [
           {
-           "id": "43360d8",
+           "id": "52e200a",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -3073,7 +3017,7 @@
            },
            "elements": [
             {
-             "id": "248e90b",
+             "id": "2a83234",
              "elType": "container",
              "settings": {
               "content_width": "full",
@@ -3097,7 +3041,7 @@
              },
              "elements": [
               {
-               "id": "5d260d6",
+               "id": "370325f",
                "elType": "container",
                "settings": {
                 "content_width": "full",
@@ -3127,7 +3071,7 @@
                "isInner": true
               },
               {
-               "id": "abc7823",
+               "id": "7e9a92d",
                "elType": "container",
                "settings": {
                 "content_width": "full",
@@ -3170,7 +3114,7 @@
                },
                "elements": [
                 {
-                 "id": "7e9a92d",
+                 "id": "8e9a801",
                  "elType": "widget",
                  "settings": {
                   "title": "+9",
@@ -3185,7 +3129,7 @@
                  "widgetType": "heading"
                 },
                 {
-                 "id": "2a83234",
+                 "id": "5d260d6",
                  "elType": "widget",
                  "settings": {
                   "title": "percentage points",
@@ -3206,7 +3150,7 @@
              "isInner": true
             },
             {
-             "id": "bc4b3fc",
+             "id": "248e90b",
              "elType": "container",
              "settings": {
               "content_width": "full",
@@ -3230,7 +3174,7 @@
              },
              "elements": [
               {
-               "id": "ffa3bda",
+               "id": "abc7823",
                "elType": "widget",
                "settings": {
                 "title": "Georgia Milestones (% Proficient + Distinguished)",
@@ -3246,7 +3190,7 @@
                "widgetType": "heading"
               },
               {
-               "id": "fb09000",
+               "id": "9200a15",
                "elType": "container",
                "settings": {
                 "content_width": "full",
@@ -3280,7 +3224,7 @@
                },
                "elements": [
                 {
-                 "id": "7b9ea66",
+                 "id": "7614c6a",
                  "elType": "widget",
                  "settings": {
                   "editor": "<p>100%</p>",
@@ -3294,7 +3238,7 @@
                  "widgetType": "text-editor"
                 },
                 {
-                 "id": "c1ca746",
+                 "id": "083b531",
                  "elType": "widget",
                  "settings": {
                   "editor": "<p>80%</p>",
@@ -3308,7 +3252,7 @@
                  "widgetType": "text-editor"
                 },
                 {
-                 "id": "eebdc58",
+                 "id": "7b9ea66",
                  "elType": "widget",
                  "settings": {
                   "editor": "<p>60%</p>",
@@ -3322,7 +3266,7 @@
                  "widgetType": "text-editor"
                 },
                 {
-                 "id": "69ff0a7",
+                 "id": "c1ca746",
                  "elType": "widget",
                  "settings": {
                   "editor": "<p>40%</p>",
@@ -3336,7 +3280,7 @@
                  "widgetType": "text-editor"
                 },
                 {
-                 "id": "9200a15",
+                 "id": "eebdc58",
                  "elType": "widget",
                  "settings": {
                   "editor": "<p>20%</p>",
@@ -3350,7 +3294,7 @@
                  "widgetType": "text-editor"
                 },
                 {
-                 "id": "c1286e4",
+                 "id": "69ff0a7",
                  "elType": "widget",
                  "settings": {
                   "editor": "<p>0%</p>",
@@ -3367,7 +3311,7 @@
                "isInner": true
               },
               {
-               "id": "8e9a801",
+               "id": "7dc2f7f",
                "elType": "container",
                "settings": {
                 "content_width": "full",
@@ -3410,7 +3354,7 @@
                },
                "elements": [
                 {
-                 "id": "08a8d6b",
+                 "id": "deddc4d",
                  "elType": "container",
                  "settings": {
                   "content_width": "full",
@@ -3444,7 +3388,7 @@
                  },
                  "elements": [
                   {
-                   "id": "deddc4d",
+                   "id": "c1286e4",
                    "elType": "widget",
                    "settings": {
                     "title": "62%",
@@ -3459,7 +3403,7 @@
                    "widgetType": "heading"
                   },
                   {
-                   "id": "18c5fb1",
+                   "id": "fb09000",
                    "elType": "container",
                    "settings": {
                     "content_width": "full",
@@ -3486,7 +3430,7 @@
                  "isInner": true
                 },
                 {
-                 "id": "370325f",
+                 "id": "defc114",
                  "elType": "container",
                  "settings": {
                   "content_width": "full",
@@ -3520,7 +3464,7 @@
                  },
                  "elements": [
                   {
-                   "id": "defc114",
+                   "id": "18c5fb1",
                    "elType": "widget",
                    "settings": {
                     "title": "71%",
@@ -3535,7 +3479,7 @@
                    "widgetType": "heading"
                   },
                   {
-                   "id": "7dc2f7f",
+                   "id": "08a8d6b",
                    "elType": "container",
                    "settings": {
                     "content_width": "full",
@@ -3568,7 +3512,7 @@
              "isInner": true
             },
             {
-             "id": "08f2c42",
+             "id": "aefdce4",
              "elType": "container",
              "settings": {
               "content_width": "full",
@@ -3591,7 +3535,7 @@
              },
              "elements": [
               {
-               "id": "77c3d00",
+               "id": "ffa3bda",
                "elType": "container",
                "settings": {
                 "content_width": "full",
@@ -3621,7 +3565,7 @@
                "isInner": true
               },
               {
-               "id": "52e200a",
+               "id": "ce4ef56",
                "elType": "container",
                "settings": {
                 "content_width": "full",
@@ -3646,7 +3590,7 @@
                },
                "elements": [
                 {
-                 "id": "ce4ef56",
+                 "id": "bc4b3fc",
                  "elType": "widget",
                  "settings": {
                   "title": "Before FSI",
@@ -3662,7 +3606,7 @@
                  "widgetType": "heading"
                 },
                 {
-                 "id": "aefdce4",
+                 "id": "77c3d00",
                  "elType": "widget",
                  "settings": {
                   "title": "After FSI",
@@ -3687,7 +3631,7 @@
            "isInner": true
           },
           {
-           "id": "801ea39",
+           "id": "5a85585",
            "elType": "container",
            "settings": {
             "content_width": "full",
@@ -3725,7 +3669,7 @@
            },
            "elements": [
             {
-             "id": "d8b9a79",
+             "id": "08f2c42",
              "elType": "widget",
              "settings": {
               "video_type": "youtube",
@@ -3747,7 +3691,7 @@
              "widgetType": "video"
             },
             {
-             "id": "673e8eb",
+             "id": "43360d8",
              "elType": "widget",
              "settings": {
               "editor": "<p>“FSI gave our teachers the tools, the support, and the confidence to make science come alive for our students.”</p>",
@@ -3760,7 +3704,7 @@
              "widgetType": "text-editor"
             },
             {
-             "id": "f30609b",
+             "id": "62987f1",
              "elType": "container",
              "settings": {
               "content_width": "full",
@@ -3783,7 +3727,7 @@
              },
              "elements": [
               {
-               "id": "62987f1",
+               "id": "d8b9a79",
                "elType": "widget",
                "settings": {
                 "title": "Dr. Shawanda Williams",
@@ -3797,7 +3741,7 @@
                "widgetType": "heading"
               },
               {
-               "id": "5a85585",
+               "id": "673e8eb",
                "elType": "widget",
                "settings": {
                 "editor": "<p>Principal, [Georgia Elementary School]</p>",
@@ -3828,7 +3772,7 @@
    "isInner": false
   },
   {
-   "id": "ad5c3ec",
+   "id": "7744775",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -3888,7 +3832,7 @@
    },
    "elements": [
     {
-     "id": "48d0793",
+     "id": "564c170",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -3927,7 +3871,7 @@
      },
      "elements": [
       {
-       "id": "7744775",
+       "id": "01907a1",
        "elType": "widget",
        "settings": {
         "image_size": "full",
@@ -3958,7 +3902,7 @@
      "isInner": true
     },
     {
-     "id": "564c170",
+     "id": "0ffb329",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -4005,7 +3949,7 @@
      },
      "elements": [
       {
-       "id": "137b8ce",
+       "id": "836939b",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -4029,7 +3973,7 @@
        },
        "elements": [
         {
-         "id": "6f6f322",
+         "id": "aff0c3d",
          "elType": "widget",
          "settings": {
           "selected_icon": {
@@ -4050,7 +3994,7 @@
          "widgetType": "icon"
         },
         {
-         "id": "f4c0b0a",
+         "id": "8dd6016",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -4073,7 +4017,7 @@
          },
          "elements": [
           {
-           "id": "8dd6016",
+           "id": "c28ec59",
            "elType": "widget",
            "settings": {
             "title": "2027 FSI Milestones Prep School Tour",
@@ -4087,7 +4031,7 @@
            "widgetType": "heading"
           },
           {
-           "id": "836939b",
+           "id": "6f6f322",
            "elType": "widget",
            "settings": {
             "editor": "<p>January – April 2027</p>",
@@ -4106,7 +4050,7 @@
        "isInner": true
       },
       {
-       "id": "343e243",
+       "id": "f4c0b0a",
        "elType": "widget",
        "settings": {
         "title": "Bring The FSI Way to Your School",
@@ -4120,7 +4064,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "08c2769",
+       "id": "137b8ce",
        "elType": "widget",
        "settings": {
         "editor": "<p>Request professional learning for your science teachers. Choose your preferred grade, focus, and dates—or join the priority waitlist if your dates are not available.</p>",
@@ -4133,12 +4077,12 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "01907a1",
+       "id": "e3167aa",
        "elType": "widget",
        "settings": {
         "icon_list": [
          {
-          "_id": "70961e1",
+          "_id": "343e243",
           "text": "Milestones preparation",
           "selected_icon": {
            "value": "fas fa-check-circle",
@@ -4152,7 +4096,7 @@
           }
          },
          {
-          "_id": "e3167aa",
+          "_id": "08c2769",
           "text": "The FSI Way implementation",
           "selected_icon": {
            "value": "fas fa-check-circle",
@@ -4166,7 +4110,7 @@
           }
          },
          {
-          "_id": "0ffb329",
+          "_id": "70961e1",
           "text": "On-site or virtual professional learning",
           "selected_icon": {
            "value": "fas fa-check-circle",
@@ -4209,7 +4153,7 @@
      "isInner": true
     },
     {
-     "id": "c28ec59",
+     "id": "3d4a2dc",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -4267,7 +4211,7 @@
      },
      "elements": [
       {
-       "id": "3d4a2dc",
+       "id": "8c37e87",
        "elType": "widget",
        "settings": {
         "title": "Request Professional Learning",
@@ -4281,13 +4225,13 @@
        "widgetType": "heading"
       },
       {
-       "id": "4656a12",
+       "id": "d757a0a",
        "elType": "widget",
        "settings": {
         "form_name": "Request Professional Learning",
         "form_fields": [
          {
-          "_id": "238c782",
+          "_id": "0223878",
           "custom_id": "grade",
           "field_type": "select",
           "field_label": "Grade or Subject",
@@ -4297,7 +4241,7 @@
           "required": "true"
          },
          {
-          "_id": "d757a0a",
+          "_id": "16df7df",
           "custom_id": "month",
           "field_type": "select",
           "field_label": "Preferred Month",
@@ -4307,7 +4251,7 @@
           "required": "true"
          },
          {
-          "_id": "8c37e87",
+          "_id": "238c782",
           "custom_id": "focus",
           "field_type": "select",
           "field_label": "Professional Learning Focus",
@@ -4394,7 +4338,7 @@
        "widgetType": "form"
       },
       {
-       "id": "aff0c3d",
+       "id": "4656a12",
        "elType": "widget",
        "settings": {
         "editor": "<p style=\"text-align:center;\">Or <a href=\"#waitlist\"><strong>Join the Priority Waitlist</strong></a></p>",
@@ -4413,7 +4357,7 @@
    "isInner": false
   },
   {
-   "id": "be4489c",
+   "id": "a8457f7",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -4454,7 +4398,7 @@
    },
    "elements": [
     {
-     "id": "04c3831",
+     "id": "a8a0f3a",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -4479,7 +4423,7 @@
      },
      "elements": [
       {
-       "id": "31edbac",
+       "id": "792ea85",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -4517,7 +4461,7 @@
        },
        "elements": [
         {
-         "id": "792ea85",
+         "id": "48d0793",
          "elType": "widget",
          "settings": {
           "title": "Implementation Plans for Schools &amp; Districts",
@@ -4531,7 +4475,7 @@
          "widgetType": "heading"
         },
         {
-         "id": "63ded19",
+         "id": "ad5c3ec",
          "elType": "widget",
          "settings": {
           "editor": "<p><strong>Flexible</strong> options to fit your goals, scale, and <strong>level</strong> of support—from a single school to a complete district solution.</p>",
@@ -4547,7 +4491,7 @@
        "isInner": true
       },
       {
-       "id": "c730e50",
+       "id": "37b783c",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -4615,7 +4559,7 @@
        },
        "elements": [
         {
-         "id": "3817d46",
+         "id": "ce35844",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -4639,7 +4583,7 @@
          },
          "elements": [
           {
-           "id": "ce35844",
+           "id": "63ded19",
            "elType": "widget",
            "settings": {
             "selected_icon": {
@@ -4660,7 +4604,7 @@
            "widgetType": "icon"
           },
           {
-           "id": "67f2ea6",
+           "id": "31edbac",
            "elType": "widget",
            "settings": {
             "title": "School Essential",
@@ -4677,12 +4621,12 @@
          "isInner": true
         },
         {
-         "id": "7412d93",
+         "id": "f26dd23",
          "elType": "widget",
          "settings": {
           "icon_list": [
            {
-            "_id": "bbcc74c",
+            "_id": "67f2ea6",
             "text": "FSI Courses (selected grades)",
             "selected_icon": {
              "value": "fas fa-check",
@@ -4696,7 +4640,7 @@
             }
            },
            {
-            "_id": "f26dd23",
+            "_id": "3817d46",
             "text": "The FSI Way classroom resources",
             "selected_icon": {
              "value": "fas fa-check",
@@ -4710,7 +4654,7 @@
             }
            },
            {
-            "_id": "37b783c",
+            "_id": "bbcc74c",
             "text": "Implementation launch support",
             "selected_icon": {
              "value": "fas fa-check",
@@ -4753,7 +4697,7 @@
        "isInner": true
       },
       {
-       "id": "5b928b7",
+       "id": "ffa52d6",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -4821,7 +4765,7 @@
        },
        "elements": [
         {
-         "id": "0577d34",
+         "id": "47f979a",
          "elType": "widget",
          "settings": {
           "title": "Most Popular",
@@ -4866,7 +4810,7 @@
          "widgetType": "heading"
         },
         {
-         "id": "34caeb1",
+         "id": "eefd16a",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -4890,7 +4834,7 @@
          },
          "elements": [
           {
-           "id": "eefd16a",
+           "id": "7412d93",
            "elType": "widget",
            "settings": {
             "selected_icon": {
@@ -4911,7 +4855,7 @@
            "widgetType": "icon"
           },
           {
-           "id": "45fc944",
+           "id": "c730e50",
            "elType": "widget",
            "settings": {
             "title": "School Plus",
@@ -4928,12 +4872,12 @@
          "isInner": true
         },
         {
-         "id": "ffa52d6",
+         "id": "5db606e",
          "elType": "widget",
          "settings": {
           "icon_list": [
            {
-            "_id": "5c74bbf",
+            "_id": "45fc944",
             "text": "FSI Courses (all science grades)",
             "selected_icon": {
              "value": "fas fa-check",
@@ -4947,7 +4891,7 @@
             }
            },
            {
-            "_id": "e53bdd6",
+            "_id": "34caeb1",
             "text": "The FSI Way boards and materials",
             "selected_icon": {
              "value": "fas fa-check",
@@ -4961,7 +4905,7 @@
             }
            },
            {
-            "_id": "5db606e",
+            "_id": "5c74bbf",
             "text": "Professional learning & coaching",
             "selected_icon": {
              "value": "fas fa-check",
@@ -4975,7 +4919,7 @@
             }
            },
            {
-            "_id": "47f979a",
+            "_id": "e53bdd6",
             "text": "Assessment preparation support",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5018,7 +4962,7 @@
        "isInner": true
       },
       {
-       "id": "a8457f7",
+       "id": "63718a9",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -5086,7 +5030,7 @@
        },
        "elements": [
         {
-         "id": "af75f5b",
+         "id": "d16de1e",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -5110,7 +5054,7 @@
          },
          "elements": [
           {
-           "id": "d16de1e",
+           "id": "0577d34",
            "elType": "widget",
            "settings": {
             "selected_icon": {
@@ -5131,7 +5075,7 @@
            "widgetType": "icon"
           },
           {
-           "id": "01c1c86",
+           "id": "5b928b7",
            "elType": "widget",
            "settings": {
             "title": "District Partnership",
@@ -5148,12 +5092,12 @@
          "isInner": true
         },
         {
-         "id": "a8a0f3a",
+         "id": "93fb026",
          "elType": "widget",
          "settings": {
           "icon_list": [
            {
-            "_id": "7f13400",
+            "_id": "01c1c86",
             "text": "Districtwide implementation plan",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5167,7 +5111,7 @@
             }
            },
            {
-            "_id": "5675eab",
+            "_id": "af75f5b",
             "text": "Full access to FSI solutions",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5181,7 +5125,7 @@
             }
            },
            {
-            "_id": "93fb026",
+            "_id": "7f13400",
             "text": "Ongoing professional learning",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5195,7 +5139,7 @@
             }
            },
            {
-            "_id": "63718a9",
+            "_id": "5675eab",
             "text": "Data reviews and continuous improvement",
             "selected_icon": {
              "value": "fas fa-check",
@@ -5244,7 +5188,7 @@
    "isInner": false
   },
   {
-   "id": "0f9a713",
+   "id": "67dd91c",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -5285,7 +5229,7 @@
    },
    "elements": [
     {
-     "id": "24c8365",
+     "id": "8da2819",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -5310,7 +5254,7 @@
      },
      "elements": [
       {
-       "id": "b327e56",
+       "id": "a12db82",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -5348,7 +5292,7 @@
        },
        "elements": [
         {
-         "id": "e0e2909",
+         "id": "04c3831",
          "elType": "widget",
          "settings": {
           "title": "Explore FSI Publishing",
@@ -5362,7 +5306,7 @@
          "widgetType": "heading"
         },
         {
-         "id": "23f58c3",
+         "id": "be4489c",
          "elType": "widget",
          "settings": {
           "editor": "<p>Classroom-tested resources to build science understanding, reinforce learning, and prepare for Georgia assessments.</p>",
@@ -5375,7 +5319,7 @@
          "widgetType": "text-editor"
         },
         {
-         "id": "3297c96",
+         "id": "23f58c3",
          "elType": "container",
          "settings": {
           "content_width": "full",
@@ -5398,7 +5342,7 @@
          },
          "elements": [
           {
-           "id": "a12db82",
+           "id": "e0e2909",
            "elType": "widget",
            "settings": {
             "text": "Shop All Products",
@@ -5455,7 +5399,7 @@
        "isInner": true
       },
       {
-       "id": "67dd91c",
+       "id": "c617ec6",
        "elType": "container",
        "settings": {
         "content_width": "full",
@@ -5495,7 +5439,7 @@
        },
        "elements": [
         {
-         "id": "3c71aa2",
+         "id": "3297c96",
          "elType": "widget",
          "settings": {
           "title_text": "Science Workbooks",
@@ -5552,7 +5496,7 @@
          "widgetType": "image-box"
         },
         {
-         "id": "3732130",
+         "id": "b327e56",
          "elType": "widget",
          "settings": {
           "title_text": "The FSI Way Kits",
@@ -5609,7 +5553,7 @@
          "widgetType": "image-box"
         },
         {
-         "id": "c617ec6",
+         "id": "3c71aa2",
          "elType": "widget",
          "settings": {
           "title_text": "Review &amp; Test Prep",
@@ -5666,7 +5610,7 @@
          "widgetType": "image-box"
         },
         {
-         "id": "8da2819",
+         "id": "3732130",
          "elType": "widget",
          "settings": {
           "title_text": "Science Games",
@@ -5732,7 +5676,7 @@
    "isInner": false
   },
   {
-   "id": "a1416a7",
+   "id": "b9e83ea",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -5784,7 +5728,7 @@
    },
    "elements": [
     {
-     "id": "92d9a88",
+     "id": "a207909",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -5822,7 +5766,7 @@
      },
      "elements": [
       {
-       "id": "a207909",
+       "id": "24c8365",
        "elType": "widget",
        "settings": {
         "title": "Ready to Transform Science in Your Schools?",
@@ -5836,7 +5780,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "f66a122",
+       "id": "0f9a713",
        "elType": "widget",
        "settings": {
         "editor": "<p>Request a district or school demo, explore our solutions, or get in touch with the FSI team.</p>",
@@ -5852,7 +5796,7 @@
      "isInner": true
     },
     {
-     "id": "0bc87d8",
+     "id": "372a28e",
      "elType": "container",
      "settings": {
       "content_width": "full",
@@ -5893,7 +5837,7 @@
      },
      "elements": [
       {
-       "id": "372a28e",
+       "id": "f66a122",
        "elType": "widget",
        "settings": {
         "text": "Request a Demo",
@@ -5945,7 +5889,7 @@
        "widgetType": "button"
       },
       {
-       "id": "b9e83ea",
+       "id": "92d9a88",
        "elType": "widget",
        "settings": {
         "text": "Contact FSI",

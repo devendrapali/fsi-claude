@@ -43,7 +43,10 @@ Images are left as Elementor placeholders. Replace them with the client's high-r
 - **Helper CSS classes** are defined in Site Settings › Custom CSS:
   - `fsi-btn-arrow` adds a trailing → to buttons that already have a leading icon.
   - `fsi-card` adds a hover lift.
-  - `fsi-underline` gives the gold title underline rounded ends.
+  - `fsi-swoosh` adds the gold curved underline to a **Heading** widget. It is sized in em, so it scales with the font size. You can combine it with these modifiers:
+    - position: `fsi-swoosh--center` or `fsi-swoosh--right`
+    - width: `fsi-swoosh--short`, `fsi-swoosh--long` or `fsi-swoosh--full`
+    - color: `fsi-swoosh--white` or `fsi-swoosh--navy` (the default is Global Secondary, gold)
   - `fsi-rotate` turns the chart's axis label vertical.
 - **Anchor IDs** for menu or button links: `#hero`, `#professional-learning`, `#plans`, `#publishing`, `#request-demo`.
 

@@ -104,8 +104,35 @@ CUSTOM_CSS = r"""/* ===== FSI helper classes (used by the imported templates) ==
 /* Adds a trailing arrow to buttons that already have a leading icon */
 .fsi-btn-arrow .elementor-button-text::after{content:"\2192";margin-left:10px;display:inline-block;transition:transform .2s}
 .fsi-btn-arrow .elementor-button:hover .elementor-button-text::after{transform:translateX(3px)}
-/* Rounded gold underline under section titles */
-.fsi-underline .elementor-divider-separator{border-radius:4px}
+/* ===== Gold swoosh underline (add class "fsi-swoosh" to a Heading widget) =====
+   Sized in em, so it scales with the heading's font size on every breakpoint. */
+.fsi-swoosh .elementor-heading-title{
+  position:relative;
+  display:inline-block;
+  padding-bottom:.45em;
+}
+.fsi-swoosh .elementor-heading-title::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:var(--fsi-swoosh-width,2.4em);
+  height:.36em;
+  background-color:var(--fsi-swoosh-color,var(--e-global-color-secondary));
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 16' preserveAspectRatio='none'%3E%3Cpath d='M1 12C30 4.5 70 1 118 2C120.5 2.2 120.5 6 118 6.4C72 8.5 36 11.5 5 15.6C1.5 16 -0.5 13 1 12Z'/%3E%3C/svg%3E") no-repeat 0 0/100% 100%;
+          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 16' preserveAspectRatio='none'%3E%3Cpath d='M1 12C30 4.5 70 1 118 2C120.5 2.2 120.5 6 118 6.4C72 8.5 36 11.5 5 15.6C1.5 16 -0.5 13 1 12Z'/%3E%3C/svg%3E") no-repeat 0 0/100% 100%;
+}
+/* Centered headings */
+.fsi-swoosh--center .elementor-heading-title::after{left:50%;transform:translateX(-50%)}
+/* Right-aligned headings */
+.fsi-swoosh--right .elementor-heading-title::after{left:auto;right:0}
+/* Width options */
+.fsi-swoosh--short{--fsi-swoosh-width:1.6em}
+.fsi-swoosh--long{--fsi-swoosh-width:4em}
+.fsi-swoosh--full{--fsi-swoosh-width:100%}
+/* Colour options */
+.fsi-swoosh--white{--fsi-swoosh-color:#fff}
+.fsi-swoosh--navy{--fsi-swoosh-color:var(--e-global-color-primary)}
 /* Vertical axis title on the results chart */
 .fsi-rotate .elementor-heading-title{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
 /* Card hover lift */
@@ -321,11 +348,6 @@ def image(alt="", height=None, radius=0, **s):
         d["height"] = px(height)
         d["object-fit"] = "cover"
     return w("image", **merge(d, s))
-
-
-def divider(width_px=70, align="left", color="secondary"):
-    return w("divider", style="solid", weight=px(4), width=px(width_px), align=align, gap=px(2),
-             _css_classes="fsi-underline", __globals__={"color": C(color)})
 
 
 def icon_list(items, ic="fas fa-check-circle", icon_color="secondary", text_color="fsiwhit", font="fsibdsm",
@@ -600,7 +622,7 @@ def choose_path():
             **merge(card_style(bg, 10, border=False, shadow=False, pad=(20, 18, 20, 20)), width(26, 100, 100)),
         )
 
-    title = col([heading("Choose Your Path with FSI", "h2", "fsihead", "primary"), divider(80)],
+    title = col([heading("Choose Your Path with FSI", "h2", "fsihead", "primary", _css_classes="fsi-swoosh")],
                 flex_gap=gap(6), **width(22, 100, 100))
     return section([
         row([
@@ -637,8 +659,8 @@ def solutions():
     return section([
         col([
             heading("The Complete FSI Solution", "p", "fsihead", "fsieyeb", align="center"),
-            heading("A Connected System for Science Success", "h2", "fsihead", "primary", align="center"),
-            divider(90, "center"),
+            heading("A Connected System for Science Success", "h2", "fsihead", "primary", align="center",
+                    _css_classes="fsi-swoosh fsi-swoosh--center"),
         ], flex_gap=gap(6), flex_align_items="center"),
         row([
             sol_card("fas fa-laptop", "FSI Courses",

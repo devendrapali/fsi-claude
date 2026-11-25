@@ -1,0 +1,29 @@
+/* ===== Gold swoosh underline (add class "fsi-swoosh" to a Heading widget) =====
+   Sized in em, so it scales with the heading's font size on every breakpoint. */
+.fsi-swoosh .elementor-heading-title{
+  position:relative;
+  display:inline-block;
+  padding-bottom:.45em;
+}
+.fsi-swoosh .elementor-heading-title::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:var(--fsi-swoosh-width,2.4em);
+  height:.36em;
+  background-color:var(--fsi-swoosh-color,var(--e-global-color-secondary));
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 16' preserveAspectRatio='none'%3E%3Cpath d='M1 12C30 4.5 70 1 118 2C120.5 2.2 120.5 6 118 6.4C72 8.5 36 11.5 5 15.6C1.5 16 -0.5 13 1 12Z'/%3E%3C/svg%3E") no-repeat 0 0/100% 100%;
+          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 16' preserveAspectRatio='none'%3E%3Cpath d='M1 12C30 4.5 70 1 118 2C120.5 2.2 120.5 6 118 6.4C72 8.5 36 11.5 5 15.6C1.5 16 -0.5 13 1 12Z'/%3E%3C/svg%3E") no-repeat 0 0/100% 100%;
+}
+/* Centered headings */
+.fsi-swoosh--center .elementor-heading-title::after{left:50%;transform:translateX(-50%)}
+/* Right-aligned headings */
+.fsi-swoosh--right .elementor-heading-title::after{left:auto;right:0}
+/* Width options */
+.fsi-swoosh--short{--fsi-swoosh-width:1.6em}
+.fsi-swoosh--long{--fsi-swoosh-width:4em}
+.fsi-swoosh--full{--fsi-swoosh-width:100%}
+/* Colour options */
+.fsi-swoosh--white{--fsi-swoosh-color:#fff}
+.fsi-swoosh--navy{--fsi-swoosh-color:var(--e-global-color-primary)}
