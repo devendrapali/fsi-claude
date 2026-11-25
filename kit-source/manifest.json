@@ -1,0 +1,39 @@
+{
+ "name": "fsi-global-styles",
+ "title": "FSI Global Styles",
+ "description": "Fulton Science Innovations \u2013 global colors, fonts and theme styles.",
+ "author": "FSI",
+ "version": "2.0",
+ "elementor_version": "3.25.0",
+ "created": "2026-11-24 08:32:34",
+ "thumbnail": false,
+ "site": "",
+ "site-settings": [
+  "global-colors",
+  "global-typography",
+  "theme-style-typography",
+  "theme-style-buttons",
+  "theme-style-images",
+  "theme-style-form-fields",
+  "settings-background",
+  "settings-layout",
+  "settings-custom-css"
+ ],
+ "templates": {},
+ "content": {},
+ "wp-content": {},
+ "plugins": [
+  {
+   "name": "Elementor",
+   "plugin": "elementor/elementor",
+   "pluginUri": "https://elementor.com/",
+   "version": "3.25.0"
+  },
+  {
+   "name": "Elementor Pro",
+   "plugin": "elementor-pro/elementor-pro",
+   "pluginUri": "https://elementor.com/",
+   "version": "3.25.0"
+  }
+ ]
+}
